@@ -1,6 +1,6 @@
 .DS_Store
-*/.DS_Store
+node_modules
+.temp
+.cache
 
-*.ppt
-*.pptx
-
+dist

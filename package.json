@@ -1,0 +1,17 @@
+{
+  "name": "henryzhuhr.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HenryZhuHR/HenryZhuHR.github.io.git",
+  "author": "Henry Zhu <38650110+HenryZhuHR@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.31"
+  }
+}
