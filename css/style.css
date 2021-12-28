@@ -1,0 +1,25 @@
+.markdown-section a:not(:hover) {
+  /* 取消链接的下划线 */
+  text-decoration: none;
+}
+
+.markdown-section h1 {
+  font-size: x-large;
+  margin-top: 12px !important;
+  margin-bottom: 0px !important;
+}
+.markdown-section h2 {
+  font-size: large;
+  margin-top: 8px !important;
+  margin-bottom: 0px !important;
+}
+
+.markdown-section p {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.markdown-section b {
+  color: rgb(55, 108, 255) !important;
+  font-size: 300px !important;
+}
