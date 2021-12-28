@@ -4,13 +4,13 @@ import type { DefaultThemeOptions } from 'vuepress'
 export default defineUserConfig<DefaultThemeOptions>({
     // 站点配置
     lang: 'en-US',
-    title: 'Hello VuePress',
-    description: 'Just playing around',
+    title: '小宇宙',
+    description: 'Henry Zhu 的小宇宙',
 
     // 主题和它的配置
     theme: '@vuepress/theme-default',
     themeConfig: {
-        logo: '/images/plante.png',
+        logo: '/images/planet.png',
         navbar: [
             // NavbarItem
             {
