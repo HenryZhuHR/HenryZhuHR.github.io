@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: /images/hero.png
+heroImage: /images/tinyYellow.gif
 actions:
   - text: 快速上手
     link: /zh/guide/getting-started.html
@@ -22,7 +22,7 @@ features:
     details: 灵活的插件API，使得插件可以为你的站点提供许多即插即用的功能。
   - title: 打包工具
     details: 默认的打包工具是 Vite ，也同样支持 Webpack 。选一个你喜欢的来使用吧！
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: MIT Licensed | Copyright © 2018-present Henry Zhu
 ---
 
 
