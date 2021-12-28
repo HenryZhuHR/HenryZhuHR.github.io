@@ -12,9 +12,9 @@ export default defineUserConfig<DefaultThemeOptions>({
             description: 'Henryzhu的小宇宙',
         },
         '/en/': {
-            lang: 'zh-CN',
+            lang: 'en-US',
             title: 'VuePress',
-            description: 'Vue 驱动的静态网站生成器',
+            description: 'Vue',
         },
     },
 
