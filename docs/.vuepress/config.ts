@@ -4,8 +4,8 @@ import type { DefaultThemeOptions } from 'vuepress'
 export default defineUserConfig<DefaultThemeOptions>({
     // 站点配置
     lang: 'zh-CN',
-    title: 'xyz',
-    description: 'Henryzhu xyz',
+    title: '小宇宙',
+    description: 'xyz = 小宇宙',
     // locales: {
     //     // 键名是该语言所属的子路径
     //     // 作为特例，默认语言可以使用 '/' 作为其路径。
