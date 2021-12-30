@@ -1,5 +1,5 @@
 # tmux
-![tmux](images/tmux.png)
+![tmux](./images/tmux.png)
 - [tmux](#tmux)
 - [tmux 安装](#tmux-安装)
 - [tmux 中的名称与前缀键](#tmux-中的名称与前缀键)
@@ -46,7 +46,7 @@ sudo apt install -y tmux
 ```shell
 tmux
 ```
-![tmux](images/start.png)
+![tmux](./images/start.png)
 
 这时候新建一个默认的 session ，底部有一个状态栏。左侧 `[0] 0:zsh*` 是窗口编号、名称和终端信息，右侧是当前的系统信息。
 
@@ -59,7 +59,7 @@ tmux new -s <session_name>
 # example : create a session to train CNN
 tmux new -s trainCNN
 ```
-![tmux name](images/new_session-name.png)
+![tmux name](./images/new_session-name.png)
 
 这时候的 session 名称就是 `trainCNN` 了， `[trainCNN]0:zsh*`
 
@@ -79,10 +79,10 @@ tmux list-sessions
 # or 
 tmux ls -F trainCNN
 ```
-![tmux name](images/ls.png)
+![tmux name](./images/ls.png)
 
 如果已经在某个 session 内的时候，可以通过快捷键 `ctrl+B s` 来查看，黄色高光部分就是当前正在运行的 session
-![tmux name](images/ls-tmux.png)
+![tmux name](./images/ls-tmux.png)
 
 
 
@@ -93,7 +93,7 @@ tmux attach -t <session_name>
 ```
 
 例如当前运行的两个 session 分别是**编号为** `0` 和**名称为** `trainCNN` 的 session
-![tmux name](images/attach.png)
+![tmux name](./images/attach.png)
 
 
 我们想要进入其中一个 session 的时候，可以通过编号进入，也可以通过名称进入
@@ -113,7 +113,7 @@ tmux kill-session -t <session_name>
 # example : when finnished CNN training
 tmux kill-session -t trainCNN
 ```
-![tmux name](images/kill_session.png)
+![tmux name](./images/kill_session.png)
 这时候 session 就会被 kill 掉，并且出现 `[exited]` ，表示已经退出了。在 `tmux ls` 查看 session 的时候，也不会有该 session 了
 
 退出当前 session 的快捷键是  `ctrl+d`

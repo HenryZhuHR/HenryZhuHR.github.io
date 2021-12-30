@@ -4,6 +4,8 @@
   - [环境变量](#环境变量)
   - [软链接](#软链接)
   - [安装常用的软件](#安装常用的软件)
+  - [tmux](#tmux)
+  - [vim](#vim)
 - [系统安装](#系统安装)
   - [双系统方案](#双系统方案)
   - [WSL (Windows Subsystem for Linux)](#wsl-windows-subsystem-for-linux)
@@ -23,6 +25,12 @@
 [软链接](basic/basic.md#软链接)
 ## 安装常用的软件
 [安装常用的软件](basic/basic.md#安装常用的软件)
+
+## tmux
+[tmux](tmux/tmux.md)
+
+## vim
+[vim](./vim/vim.md)
 
 # 系统安装
 ## 双系统方案
@@ -68,6 +76,8 @@ sudo apt update
 ```bash
 sudo apt -y upgrade
 ```
+
+
 
 ## Ubuntu 界面 MacOS 化
 [Ubuntu 界面 MacOS 化](ubuntu/new-ubuntu.md#界面美化-macos-like)

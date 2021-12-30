@@ -20,7 +20,7 @@ features:
 prev:
   text: Get Started
   link: https://github.com
-footer: MIT Licensed | Copyright © 2021-present Henry Zhu
+footer: MIT Licensed | Copyright © 2021-present Henry Zhu / po
 ---
 
 <!-- ## 深度学习 -->
