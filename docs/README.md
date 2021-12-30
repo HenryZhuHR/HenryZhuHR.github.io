@@ -6,8 +6,8 @@ actions:
   - text: Github
     link: https://github.com/HenryZhuHR
     type: primary
-  - text: 快速上手
-    link: /zh/guide/getting-started.html
+  - text: Github
+    link: https://github.com/HenryZhuHR
     type: secondary
   
 features:
@@ -20,12 +20,9 @@ features:
 prev:
   text: Get Started
   link: https://github.com
-footer: MIT Licensed | Copyright © 2018-present Henry Zhu
+footer: MIT Licensed | Copyright © 2021-present Henry Zhu
 ---
 
-# Hello VuePress
+## 深度学习
 
-Latex 公式测试
-$$
-f(x)=\frac{\mu}{\eta}\neq
-$$
+[多层感知器 MLP](docs/deepLearning/mlp/mlp.md)
