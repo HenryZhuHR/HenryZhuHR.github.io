@@ -23,7 +23,7 @@ $$\begin{aligned}
     \hat{X_a}(j\Omega)
     &= \int_{-\infty}^{+\infty}[\sum_{n=-\infty}^{\infty} x_a(nT)\delta(t-nT)]e^{-j\Omega t}\mathrm{d}t \\
     &= \sum_{n=-\infty}^{\infty}[x_a(nT)
-    \underbrace{\int_{-\infty}^{+\infty}\delta(t-nT)e^{-j\Omega t}\mathrm{d}t}_{\delta(t)筛选性质\int_{-\infty}^{+\infty}\delta(t-t_0)f(t)\mathrm{d}t=f(t_0)}] \\
+    \underbrace{\int_{-\infty}^{+\infty}\delta(t-nT)e^{-j\Omega t}\mathrm{d}t}_{\text{property of }\delta(t) :\int_{-\infty}^{+\infty}\delta(t-t_0)f(t)\mathrm{d}t=f(t_0)}] \\
     &= \sum_{n=-\infty}^{\infty} 
     \underbrace{x_a(nT)}_{x_a(nT)=x[n]}
     e^{-jn\underbrace{\Omega T}_{\Omega T=\omega}} \\
