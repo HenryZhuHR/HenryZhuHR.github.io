@@ -80,12 +80,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 ],
             }
         ],
-        footer: `
-        &copy; <a href="https://github.com/Renovamen" target="_blank">Renovamen</a> 2018-2021
-        <br>
-        Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
-        <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
-        `
+        editLinks: false,
     },
     plugins: [
         [// markdown katex
