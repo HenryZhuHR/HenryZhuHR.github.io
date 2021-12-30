@@ -72,13 +72,13 @@ sudo apt -y upgrade
 ## Ubuntu 界面 MacOS 化
 [Ubuntu 界面 MacOS 化](ubuntu/new-ubuntu.md#界面美化-macos-like)
 
-![最终效果](ubuntu/images/finalDesktop-aft.png)
+![最终效果](./ubuntu/images/finalDesktop-aft.png)
 
 
 ## Linux 下 Nvidia 安装
 [Linux 下 Nvidia 安装](nvidia/nvidia.md)
 
-![Nvidia 驱动](nvidia/img/nvidia-settings-gpu-aft.png)
+![Nvidia 驱动](./nvidia/images/nvidia-settings-gpu-aft.png)
 
 ## Linux 下 OpenCV 源码编译
 [Linux 下 OpenCV 源码编译](opencv/opencv.md)

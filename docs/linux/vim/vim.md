@@ -30,7 +30,7 @@
 vi hello.cpp
 ```
 
-![命令模式 (command mode)](images/command_mode.png)
+![命令模式 (command mode)](./images/command_mode.png)
 
 一般模式下，可以移动光标，删除字符或者删除整行，也可以复制、粘贴文本内容
 - 移动光标
@@ -48,7 +48,7 @@ vi hello.cpp
 
 在编辑模式下，按 `Esc` 退回[一般模式 (command mode)](#一般模式-command-mode)
 
-![编辑模式 (insert mode)](images/insert_mode.png)
+![编辑模式 (insert mode)](./images/insert_mode.png)
 
 
 
@@ -61,7 +61,7 @@ vi hello.cpp
 
 在命令行模式下，删除 `:` 及其后字符，退回至[一般模式 (command mode)](#一般模式-command-mode)
 
-![命令行模式 (command-line mode)](images/commandline_mode.png)
+![命令行模式 (command-line mode)](./images/commandline_mode.png)
 
 
 

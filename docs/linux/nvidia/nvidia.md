@@ -19,9 +19,9 @@
 nvidia-settings
 ```
 
-![nvidia-settings](img/nvidia-settings.png)
+![nvidia-settings](./images/nvidia-settings.png)
 
-![nvidia-settings](img/nvidia-settings-gpu.png)
+![nvidia-settings](./images/nvidia-settings-gpu.png)
 
 以及英伟达系统管理接口（NVIDIA System Management Interface, 简称 nvidia-smi）。这是是基于NVIDIA Management Library (NVML) 的命令行管理组件,旨在(intened to )帮助管理和监控NVIDIA GPU设备。  
 可以查看GPU使用情况，`-l`可以实时刷新
@@ -77,7 +77,7 @@ Ubuntu下有三种安装方式
 ## deb(local)安装方式
 选择好需要安装的[CUDA toolkit](https://developer.nvidia.com/cuda-toolkit-archive)版本，再选择好对应系统、架构、发行版本及其版本、安装方式，安装对应命令即可
 
-![cuda-install-deb](img/cuda-install-deb.png)
+![cuda-install-deb](./images/cuda-install-deb.png)
 
 例如，`x86_64`架构下的`Ubuntu 20.04`通过`deb(local)`的方式安装`CUDA 11.4`的命令如下
 ```bash
@@ -114,30 +114,30 @@ sudo sh cuda_11.4.0_470.42.01_linux.run
 ```bash
 sudo chmod 777 cuda_<cuda_version>_<driver_version>_linux.run
 ```
-![cuda install 1](img/cuda-install-1.png)
+![cuda install 1](./images/cuda-install-1.png)
 
 执行安装程序
 ```bash
 sudo ./cuda_<cuda_version>_<driver_version>_linux.run
 ```
-![cuda install 2](img/cuda-install-2.png)
+![cuda install 2](./images/cuda-install-2.png)
 
 
 选择 `Continue` 
-![cuda install 3](img/cuda-install-3.png)
+![cuda install 3](./images/cuda-install-3.png)
 
 
 输入 `accept` 确认安装
 
-![cuda install 4](img/cuda-install-4.png)
+![cuda install 4](./images/cuda-install-4.png)
 
 这里不要勾选 `Drive` ，因为这里安装的驱动可能低于系统自带的驱动，根据 [驱动安装](#nvidia-驱动安装)
 
-![cuda install 5](img/cuda-install-5.png)
+![cuda install 5](./images/cuda-install-5.png)
 
 安装结束后，出现安装概要
 
-![cuda install 6](img/cuda-install-6.png)
+![cuda install 6](./images/cuda-install-6.png)
 
 ```bash
 ===========
@@ -207,7 +207,7 @@ sudo rm -rf /usr/local/cuda-11.0
 # cuDNN安装
 下载 [cuDNN](https://developer.nvidia.com/zh-cn/cudnn)（需要注册NVIDIA账号并登录）
 
-![cuDNN-download](img/cuDNN-download.png)
+![cuDNN-download](./images/cuDNN-download.png)
 
 
 下载解压之后

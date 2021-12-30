@@ -23,6 +23,6 @@ prev:
 footer: MIT Licensed | Copyright © 2021-present Henry Zhu
 ---
 
-## 深度学习
+<!-- ## 深度学习 -->
 
-[多层感知器 MLP](docs/deepLearning/mlp/mlp.md)
+<!-- [多层感知器 MLP](./deepLearning/mlp/mlp.md) -->

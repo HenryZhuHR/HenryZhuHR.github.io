@@ -197,7 +197,7 @@ sudo apt-get purge --autoremove <software>
 sudo gedit /etc/default/grub
 ```
 
-![修改 grub](images/grub.png)
+![修改 grub](./images/grub.png)
 
 - `GRUB_DEFAULT` : 默认启动项，按列表的顺序，从0开始
 - `GRUB_TIMEOUT` : 启动选择超时时间
@@ -221,7 +221,7 @@ sudo update-grub
 sudo apt update
 sudo apt install -y gnome-tweak-tool
 ```
-![修改窗口的按钮位置](images/tweak-change_winButton_1.png)
+![修改窗口的按钮位置](./images/tweak-change_winButton_1.png)
 
 
 **改窗口的按钮位置**
@@ -230,7 +230,7 @@ sudo apt install -y gnome-tweak-tool
 - 中文: `窗口标题栏` -> `标题栏按钮` -> `放置` -> `左`
 
 
-![修改窗口的按钮位置](images/tweak-change_winButton_2.png)
+![修改窗口的按钮位置](./images/tweak-change_winButton_2.png)
 
 
 
@@ -241,15 +241,15 @@ sudo apt install -y gnome-tweak-tool
 
 发现有感叹号无法操作
 
-![Tweak](images/tweak-appearance_shell_1.png)
+![Tweak](./images/tweak-appearance_shell_1.png)
 
 ```bash
 sudo apt install -y gnome-shell-extensions
 ```
 
 在`扩展`中打开`User themes`的选项之后，就可以看到感叹号消失了，这时候就可以修改`Shell`了
-![extension user_themes](images/tweak-extension-user_themes.png)
-![appearance shell](images/tweak-appearance_shell_2.png)
+![extension user_themes](./images/tweak-extension-user_themes.png)
+![appearance shell](./images/tweak-appearance_shell_2.png)
 
 > 如果扩展中没有 `User themes` 选项，则可能需要`reboot`重启设备
 > `User themes` 选项之后如果感叹号仍然没有消失，那么需要重新打开该软件
@@ -279,7 +279,7 @@ sudo apt install -y gnome-shell-extensions
 
 之后就可以修改对应的主题
 
-![Application](images/tweak-application.png)
+![Application](./images/tweak-application.png)
 
 
 ## 程序坞修改
@@ -290,20 +290,20 @@ sudo apt install -y chrome-gnome-shell
 
 点击以下载 [dash to dock](https://extensions.gnome.org/extension/307/dash-to-dock/)，并且打开右上角的按钮
 
-![下载 dash to dock](images/dash_to_dock-install.png)
+![下载 dash to dock](./images/dash_to_dock-install.png)
 
-![打开 dash to dock](images/dash_to_dock-install_button.png)
+![打开 dash to dock](./images/dash_to_dock-install_button.png)
 
 之后在`优化(TWeak)`中启动`dash to dock`
 
-![启动 dash to dock](images/dash_to_dock-start.png)
+![启动 dash to dock](./images/dash_to_dock-start.png)
 
 点击齿轮按钮，可以修改dock
 
 
 ## 最终效果
 
-![最终效果](images/finalDesktop.png)
+![最终效果](./images/finalDesktop.png)
 
 > **去掉默认密钥环的密码**
 > 
@@ -318,7 +318,7 @@ sudo apt install -y chrome-gnome-shell
 
 到 `Microsoft Store` 中下载需要的Linux发行版本，这里选择[Ubuntu](https://www.microsoft.com/store/productId/9NBLGGH4MSV6)
 
-![Microsoft Store](images/wsl2-msstore-ubuntu.png)
+![Microsoft Store](./images/wsl2-msstore-ubuntu.png)
 
 打开 PowerShell，然后在安装新的 Linux 发行版时运行以下命令，将 WSL 2 设置为默认版本
 ```bash
@@ -333,7 +333,7 @@ wsl --list --verbose
 启动 Ubuntu 之后进行短暂的安装
 
 > 推荐[Windows Terminal](https://www.microsoft.com/store/productId/9N0DX20HK701)，Windows Terminal 可以用于启动Ubuntu
-> ![Windows Terminal](images/wsl2-windows-terminal.png)
+> ![Windows Terminal](./images/wsl2-windows-terminal.png)
 
 
 > [!TIP]
@@ -383,7 +383,7 @@ sudo ufw allow 3389
 
 登录远程桌面
 
-![登录远程桌面](images/wsl2-login_remote_desktop.png)
+![登录远程桌面](./images/wsl2-login_remote_desktop.png)
 
 
 

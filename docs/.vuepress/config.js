@@ -4,8 +4,8 @@ module.exports = {
         '/': {// 作为特例，默认语言可以使用 '/' 作为其路径。
             base: './',
             lang: 'zh-CN',
-            title: '小宇宙',
-            description: 'xyz = 小宇宙',
+            title: 'xyz = 小宇宙',
+            description: '一个小博客',
         },
         '/en/': {
             base: './',
@@ -18,7 +18,7 @@ module.exports = {
     // 主题和它的配置
     theme: '@vuepress/theme-default',
     themeConfig: {
-        logo: 'https://vuejs.org/images/logo.png',
+        logo: '/images/planet.png',
         locales: {
             '/': { selectLanguageName: '简体中文', },
             '/en/': { selectLanguageName: 'English', },
@@ -47,14 +47,29 @@ module.exports = {
                 text: 'C&C++',
                 children: [
                     {
-                        text: 'CMake(TODO)',
-                        link: '/c_cxx/cmake',
+                        text: 'CMake',
+                        link: '/c_cxx/cmake/cmake.md',
                         activeMatch: '^/cmake/',
                     },
                     {
-                        text: 'C++(TODO)',
+                        text: 'C++',
                         link: '/c_cxx/cpp/cxx.md',
                         activeMatch: '^/cpp/',
+                    },
+                ],
+            },
+            {
+                text: '技术',
+                children: [
+                    {
+                        text: 'VScode',
+                        link: '/vscode/vscode.md',
+                        activeMatch: '^/vscode/',
+                    },
+                    {
+                        text: 'Linux',
+                        link: '/linux/linux.md',
+                        activeMatch: '^/linux/',
                     },
                 ],
             },
@@ -77,7 +92,7 @@ module.exports = {
                 mark: true  // 高亮标记
             }
         ],
-        [// giscus https://giscus.app/zh-CN & https://github.com/giscus/giscus/blob/main/SELF-HOSTING.md
+        [// giscus https://giscus.app/zh-CN
             "vuepress-plugin-giscus", {
                 repo: "HenryZhuHR/giscus-comments",  // 必须，string，格式：user_name/repo_name
                 repoId: "R_kgDOGmgCHg",  // 必须，string，在 Giscus 官网上生成
@@ -90,5 +105,6 @@ module.exports = {
                 //crossorigin: "[crossorigin]"  // 可选，string，default="anonymous"
             }
         ]
+        
     ]
 }
