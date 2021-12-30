@@ -65,10 +65,29 @@ module.exports = {
         ],
     },
     plugins: [
-        [
+        [// markdown katex
             "@renovamen/vuepress-plugin-katex", {
                 "throwOnError": false,
                 "errorColor": "#cc0000"
+            }
+        ],
+        [// markdown 脚注
+            "@renovamen/vuepress-plugin-md-plus", {
+                footnote: true,  // 脚注
+                mark: true  // 高亮标记
+            }
+        ],
+        [// giscus https://giscus.app/zh-CN & https://github.com/giscus/giscus/blob/main/SELF-HOSTING.md
+            "vuepress-plugin-giscus", {
+                repo: "HenryZhuHR/giscus-comments",  // 必须，string，格式：user_name/repo_name
+                repoId: "R_kgDOGmgCHg",  // 必须，string，在 Giscus 官网上生成
+                category: "Announcements",  // 必须，string
+                categoryId: "DIC_kwDOGmgCHs4CAejX",  // 必须，string，在 Giscus 官网上生成
+                //mapping: "[页面 <-> discussion 映射]",  // 可选，string，default="title"
+                //reactionsEnabled: "[是否启用 reaction]",  // 可选，boolean，default=true
+                //theme: "[主题]", // 可选，string，default="light"
+                //lang: "[语言]",  // 可选，string，default="auto"（跟随网站语言，如果 Giscus 不支持你的网站的语言，则会使用 "en"）
+                //crossorigin: "[crossorigin]"  // 可选，string，default="anonymous"
             }
         ]
     ]
