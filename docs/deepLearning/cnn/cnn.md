@@ -38,7 +38,7 @@
 ## 2D 卷积过程
 一个 5×5 的图像和一个 3×3 的 **2D卷积核** (**kernel**) 进行**步长** (**stride**) 为1的卷积计算可以得到一个 3×3 的**特性图** (**Feature Maps**)，卷积计算过程如下
 
-![Conv2D](images/con2d.gif)
+![Conv2D](./images/con2d.gif)
 
 图像 $x_{i,j}$ 和 kernel $\omega_{m,n}$ 进行卷积，$\omega_b$表示 kernel 的偏置项 
 
@@ -62,14 +62,14 @@ $$\begin{aligned}
 
 上面的卷积过程是步长为 1 的卷积过程，当步长为 2 的时候，卷积过程如下
 
-![Conv2D](images/con2d-stride_2.gif)
+![Conv2D](./images/con2d-stride_2.gif)
 
 $$\begin{aligned}
   a_{p,q}=f(\sum_{m=0}^{2} \sum_{n=0}^{2} w_{m,n} x_{(m+2\times p),(n+2\times q)}+\omega_b)
 \end{aligned}$$
 
 ## 3D 卷积过程
-![Conv3d](images/con3d-stride_1.gif)
+![Conv3d](./images/con3d-stride_1.gif)
 
 RGB图像一般包含三个颜色通道 (channel) ，因此对于RGB图像的卷积过程就变成了三维卷积。
 
@@ -109,12 +109,12 @@ tf.nn.conv3d(
 $$\begin{aligned}
     f(X)=max(0,x)
 \end{aligned}$$
-![Relu](images/relu.png)
+![Relu](./images/relu.png)
 
 Relu函数的有如下优势
 - **计算速度快**
 - **减轻梯度消失**，
-  ![d(sigmod)/dx](images/derivativeOfSigmoid.png)
+  ![d(sigmod)/dx](./images/derivativeOfSigmoid.png)
 
 
 - **稀疏性**，通过对大脑的研究发现，大脑在工作的时候只有大约5%的神经元是激活的，而采用sigmoid激活函数的人工神经网络，其激活率大约是50%。有论文声称人工神经网络在15%-30%的激活率时是比较理想的。因为relu函数在输入小于0时是完全不激活的，因此可以获得一个更低的激活率。
@@ -125,7 +125,7 @@ Relu函数的有如下优势
 
 **神经元的感受野越大，表示它提取特征的范围也就越大**，也就是可以提取到**更加全局的特征**。相反,**感受野越小,表示提取特征的范围越小**，表示包含的特征更加趋于表示**局部和细节的特征**。因此感受野的值可以用来大致判断每一层的抽象层次
 
-![cnn](images/cnn-3x3_5x5conv.png)
+![cnn](./images/cnn-3x3_5x5conv.png)
 
 > 假定图片的长、宽均为 $m$ ，卷积计算步长为 $1$
 
@@ -163,12 +163,12 @@ padding = 'VALID'   # 非全零填充
 - Max Pooling : 
 - Mean Pooling : 
 
-![pooling](images/Pooling.png)
+![pooling](./images/Pooling.png)
 
 # 舍弃 (Dropout)
 
 # CNN 网络架构
-![CNN Architecture](images/NetworkArchitecture.png)
+![CNN Architecture](./images/NetworkArchitecture.png)
 
 CNN 网络架构 (Architecture) 包括:
 - **输入层**。
@@ -368,4 +368,4 @@ for file_name in os.listdir(IMGAE_DIR):
 ```
 > 该部分代码自行填充，需要实现与[基于MLP的手写数字识别](#基于MLP的手写数字识别)中的测试结果相同的结果：
 > 
-> ![Result](images/minist-res.png)
+<!-- > ![Result](./images/minist-res.png) -->

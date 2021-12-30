@@ -159,9 +159,9 @@ labelImg
 ```
 ## labelImg 使用
 在 Ubuntu 下启动后的界面如下（Windows 版本可能略有差异）
-![start](images/labelImg-start.png)
+![start](./images/labelImg-start.png)
 
-<!-- ![start](images/labelImg-start-1.png) -->
+<!-- ![start](./images/labelImg-start-1.png) -->
 
 - 打开文件 : 标注单张图像（不推荐使用）
 - **打开目录** : 打开数据集存放的目录，目录下应该是图像的位置
@@ -174,11 +174,11 @@ labelImg
 
 点击 `创建区块` 创建一个 矩形框，画出范围
 
-![rect](images/labelImg-rect-1.png)
+![rect](./images/labelImg-rect-1.png)
 
 每个类别都有对应的颜色加以区分
 
-![rect](images/labelImg-rect-3.png)
+![rect](./images/labelImg-rect-3.png)
 
 完成一张图片的标注后，点击 `下一个图片`
 
