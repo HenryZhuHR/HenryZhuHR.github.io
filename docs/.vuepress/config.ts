@@ -3,32 +3,21 @@ import type { DefaultThemeOptions } from 'vuepress'
 
 export default defineUserConfig<DefaultThemeOptions>({
     // 站点配置
-    locales: {// 键名是该语言所属的子路径
-        '/': {// 作为特例，默认语言可以使用 '/' 作为其路径。
-            // base: './',
-            lang: 'zh-CN',
-            title: 'xyz = 小宇宙',
-            description: '一个小博客',
-        },
-        '/en/': {
-            // base: './',
-            lang: 'en-US',
-            title: 'VuePress',
-            description: 'Vue',
-        },
-    },
+    // base: './',
+    lang: 'zh-CN',
+    title: 'HenryZhu',
+    description: '$ cd /home',
 
     // 主题和它的配置
     theme: '@vuepress/theme-default',
     themeConfig: {
         repo: 'https://github.com/HenryZhuHR',
         repoLable: 'Github',
-
         logo: '/images/planet.png',
-        locales: {
-            '/': { selectLanguageName: '简体中文', },
-            '/en/': { selectLanguageName: 'English', },
-        },
+        // locales: {
+        //     '/': { selectLanguageName: '简体中文', },
+        //     '/en/': { selectLanguageName: 'English', },
+        // },
         navbar: [// 顶部导航栏配置
             {
                 text: '首页',
