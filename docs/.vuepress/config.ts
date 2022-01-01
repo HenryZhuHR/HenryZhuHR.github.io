@@ -107,7 +107,15 @@ export default defineUserConfig<DefaultThemeOptions>({
                 //lang: "[语言]",  // 可选，string，default="auto"（跟随网站语言，如果 Giscus 不支持你的网站的语言，则会使用 "en"）
                 //crossorigin: "[crossorigin]"  // 可选，string，default="anonymous"
             }
-        ]
+        ],
+        [
+            "@renovamen/vuepress-plugin-reading-time", {
+                wordsPerMinuteEN: 200,// 一分钟可以阅读多少个中文字符。
+                excludeCodeBlock: true,// 是否排除所有代码块内的字符。
+                excludeTexBlock: true,// 是否排除所有公式块内的字符。
+
+            }
+        ],
         
     ]
 })
