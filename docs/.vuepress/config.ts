@@ -5,8 +5,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     // 站点配置
     // base: './',
     lang: 'zh-CN',
-    title: 'HenryZhu',
-    description: '$ cd /home',
+    title: 'xyz',
+    description: 'xyz = 小宇宙',
 
     // 主题和它的配置
     theme: '@vuepress/theme-default',
