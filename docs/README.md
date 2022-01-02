@@ -23,6 +23,10 @@ prev:
 footer: Powered by VuePress | Copyright © 2021-present Henry Zhu
 ---
 
-<!-- ## 深度学习 -->
+## 深度学习
+### 基础
+- [多层感知器 MLP](./deepLearning/base/mlp/mlp.md)
+- [卷积神经网络 CNN](./deepLearning/base/cnn/cnn.md)
 
-<!-- [多层感知器 MLP](./deepLearning/mlp/mlp.md) -->
+### 任务
+- [图像分类](./deepLearning/task/classification/classification.md)

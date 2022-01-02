@@ -1,19 +1,19 @@
-# 【DeepLearning】为Ubuntu配置CUDA+cuDNN环境
+# Ubuntu 配置 CUDA + cuDNN 环境
 
-- [【DeepLearning】为Ubuntu配置CUDA+cuDNN环境](#deeplearning为ubuntu配置cudacudnn环境)
-- [Nvidia 驱动安装](#nvidia-驱动安装)
-- [CUDA 安装](#cuda-安装)
-  - [deb(local)安装方式](#deblocal安装方式)
-  - [deb(network)安装方式](#debnetwork安装方式)
-  - [runfile(local)安装方式](#runfilelocal安装方式)
+- [Ubuntu 配置 CUDA + cuDNN 环境](#ubuntu-配置-cuda--cudnn-环境)
+  - [Nvidia 驱动安装](#nvidia-驱动安装)
+  - [CUDA 安装](#cuda-安装)
+    - [deb(local)安装方式](#deblocal安装方式)
+    - [deb(network)安装方式](#debnetwork安装方式)
+    - [runfile(local)安装方式](#runfilelocal安装方式)
   - [配置 CUDA 环境变量](#配置-cuda-环境变量)
   - [卸载 CUDA](#卸载-cuda)
-- [cuDNN安装](#cudnn安装)
+  - [cuDNN安装](#cudnn安装)
 
 
 
 
-# Nvidia 驱动安装
+## Nvidia 驱动安装
 检查自己的电脑是否有 Nvidia 的独立显卡，可以在 `NVIDA X Server Settings` 中看到自己的显卡信息
 ```bash
 nvidia-settings
@@ -64,7 +64,7 @@ ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
 ```
 
-# CUDA 安装
+## CUDA 安装
 到[NVIDIA官网](https://developer.nvidia.com/)下载[CUDA toolkit](https://developer.nvidia.com/cuda-toolkit-archive)，如果有需要可以参考阅读[cuda toolkit release notes](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html)
 
 Ubuntu下有三种安装方式
@@ -74,7 +74,7 @@ Ubuntu下有三种安装方式
 > 如果需要安装TensorRT，貌似必须使用[`deb(local)`](#deblocal安装方式)方式安装，这种安装方式非常简单，只需要按照命令即可，并且**强烈推荐这种安装方式**
 
 
-## deb(local)安装方式
+### deb(local)安装方式
 选择好需要安装的[CUDA toolkit](https://developer.nvidia.com/cuda-toolkit-archive)版本，再选择好对应系统、架构、发行版本及其版本、安装方式，安装对应命令即可
 
 ![cuda-install-deb](./images/cuda-install-deb.png)
@@ -89,7 +89,7 @@ sudo apt-key add /var/cuda-repo-ubuntu2004-11-4-local/7fa2af80.pub
 sudo apt-get update
 sudo apt-get -y install cuda
 ```
-## deb(network)安装方式
+### deb(network)安装方式
 选择好需要安装的[CUDA toolkit](https://developer.nvidia.com/cuda-toolkit-archive)版本，再选择好对应系统、架构、发行版本及其版本、安装方式，安装对应命令即可
 
 例如，`x86_64`架构下的`Ubuntu 20.04`通过`deb(network)`的方式安装`CUDA 11.4`的命令如下
@@ -102,7 +102,7 @@ sudo apt-get update
 sudo apt-get -y install cuda
 ```
 
-## runfile(local)安装方式
+### runfile(local)安装方式
 选择好需要安装的[CUDA toolkit](https://developer.nvidia.com/cuda-toolkit-archive)版本，再选择好对应系统、架构、发行版本及其版本、安装方式，安装对应命令即可
 例如，`x86_64`架构下的`Ubuntu 20.04`通过`runfile(network)`的方式安装`CUDA 11.4`的命令如下
 ```bash
@@ -204,7 +204,7 @@ sudo /usr/local/cuda-11.0/bin/cuda-uninstaller
 sudo rm -rf /usr/local/cuda-11.0
 ```
 
-# cuDNN安装
+## cuDNN安装
 下载 [cuDNN](https://developer.nvidia.com/zh-cn/cudnn)（需要注册NVIDIA账号并登录）
 
 ![cuDNN-download](./images/cuDNN-download.png)

@@ -27,29 +27,39 @@ export default defineUserConfig<DefaultThemeOptions>({
                 text: '深度学习',
                 children: [
                     {
-                        text: 'MLP',
-                        link: '/deepLearning/mlp/mlp.md',
-                        activeMatch: '^/mlp/',
+                        text: '基础',
+                        link: '/deepLearning/base/base.md',
+                        activeMatch: '^/base/',
                     },
                     {
-                        text: 'CNN',
-                        link: '/deepLearning/cnn/cnn.md',
-                        activeMatch: '^/cnn/',
+                        text: '任务',
+                        link: '/deepLearning/task/task.md',
+                        activeMatch: '^/task/',
                     },
                 ],
             },
             {
-                text: 'C&C++',
+                text: '编程',
                 children: [
                     {
                         text: 'CMake',
-                        link: '/c_cxx/cmake/cmake.md',
+                        link: '/program/cmake/cmake.md',
                         activeMatch: '^/cmake/',
                     },
                     {
                         text: 'C++',
-                        link: '/c_cxx/cpp/cxx.md',
+                        link: '/program/cpp/cpp.md',
                         activeMatch: '^/cpp/',
+                    },
+                    {
+                        text: 'Python',
+                        link: '/program/python/python.md',
+                        activeMatch: '^/python/',
+                    },
+                    {
+                        text: 'Java',
+                        link: '/program/java/java.md',
+                        activeMatch: '^/java/',
                     },
                 ],
             },

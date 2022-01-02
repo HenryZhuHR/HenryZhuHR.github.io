@@ -1,7 +1,7 @@
-# 【Python】 tqdm: 一个快速、可扩展的进度条
+# tqdm
 **tqdm** 是一个快速、可扩展的进度条
 
-![tqdm](logo.gif)
+![tqdm](./logo.gif)
 
 如果希望循环能够显示进度，那么只需要将循环中的`可迭代对象`用 tqdm 封装 `tqdm(iterable)`，例如
 ```python
@@ -89,7 +89,7 @@ for i in pbar:
     time.sleep(0.01)     # your code here
     pbar.set_description("iter %d"%i)
 ```
-![GUI中显示进度条](tqdmgui.png)
+![GUI中显示进度条](./tqdmgui.png)
 
 如果在tqdm循环中用print打印信息，可能会导致输出错位
 ```bash

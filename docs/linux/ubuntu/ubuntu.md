@@ -1,16 +1,22 @@
-# Ubuntu 安装后
+# Ubuntu
+- [Ubuntu](#ubuntu)
+  - [更换软件源](#更换软件源)
+  - [双系统时间同步](#双系统时间同步)
+  - [软件安装](#软件安装)
+    - [Clang](#clang)
+    - [Microsoft Edge](#microsoft-edge)
+    - [GitHub Desktop](#github-desktop)
+    - [deepin-wine](#deepin-wine)
+    - [Lantern](#lantern)
+  - [Ubuntu 修改 Grub 启动项](#ubuntu-修改-grub-启动项)
+  - [界面美化](#界面美化)
+    - [TweakTool](#tweaktool)
+  - [安装 MacOS 主题样式](#安装-macos-主题样式)
+  - [程序坞修改](#程序坞修改)
+  - [最终效果](#最终效果)
+- [WSL2 (Windows Subsystem for Linux)](#wsl2-windows-subsystem-for-linux)
 
-- [x] [更换软件源](#更换软件源)
-- [x] [双系统时间同步](#双系统时间同步)
-- [x] [软件安装](#软件安装)
-  - [x] [Microsoft Edge](#microsoft-edge)
-  - [x] [GitHub Desktop](#github-desktop)
-  - [x] [deepin-wine](#deepin-wine)
-- [x] [Ubuntu 修改 Grub 启动项](#ubuntu-修改-grub-启动项)
-- [x] [界面美化 (MacOS like)](#界面美化-macos-like)
-- [x] [WSL2 (Windows Subsystem for Linux)](#wsl2-windows-subsystem-for-linux)
-
-# 更换软件源
+## 更换软件源
 Ubuntu 的软件源配置文件是 `/etc/apt/sources.list`，将系统自带的该文件做个备份
 ```bash
 cd /etc/apt
@@ -22,7 +28,7 @@ sudo cp sources.list sources.list.bak
 sudo vi sources.list
 ```
 
-> [!NOTE]
+
 > 替换的镜像源可以从网站中找到，并且可以在网站上查看到使用帮助
 > - [清华大学开源软件镜像站 Ubuntu 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
 > - [中国科学技术大学源](http://mirrors.ustc.edu.cn/help/ubuntu.html)
@@ -48,7 +54,7 @@ sudp apt upgrade -y
 sudo apt --fix-broken install
 ```
 
-# 双系统时间同步
+## 双系统时间同步
 当电脑有多个系统的时候可能会存在时间差8小时的情况
 
 更新软件源
@@ -64,16 +70,15 @@ sudo ntpdate time.windows.com
 sudo hwclock --localtime --systohc
 ```
 
-# 软件安装
+## 软件安装
 
-## 常用的软件
 
 ```bash
 sudo apt install -y git gcc cmake tree
 # 安装 GNU 编译器工具和 GDB 调试器
 sudo apt-get install build-essential gdb
 ```
-## Clang
+### Clang
 下载 [LLVM 源码](https://releases.llvm.org/)
 > [Getting Started: Building and Running Clang](https://clang.llvm.org/get_started.html)
 
@@ -109,7 +114,7 @@ make -j8
 make install
 ```
 
-## Microsoft Edge
+### Microsoft Edge
 在 [Microsoft Edge Insider Channels](https://www.microsoftedgeinsider.com/zh-cn/download/?platform=linux) 下载 Edge 预览版
 
 或者可以通过 apt 包管理软件来下载 ：
@@ -129,7 +134,7 @@ sudo apt install -y microsoft-edge-dev
 ```
 
 
-## GitHub Desktop
+### GitHub Desktop
 [GitHub Desktop - The Linux Fork](https://github.com/shiftkey/desktop)
 
 添加软件源
@@ -143,7 +148,7 @@ sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/
 sudo apt install -y github-desktop
 ```
 
-## deepin-wine
+### deepin-wine
 > 参考 [deepin-wine](https://github.com/zq1997/deepin-wine) 项目
 
 首次使用时，你需要运行如下一条命令将移植仓库添加到系统中
@@ -185,11 +190,11 @@ sudo apt-get purge --autoremove <software>
 
 其他问题参考官方的[常见问题](https://github.com/zq1997/deepin-wine#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)以解决
 
-## Lantern
+### Lantern
 下载[蓝灯](https://github.com/getlantern/download)，自行选择是否购买[专业版](https://www.getlandeng605.org/)
 
 
-# Ubuntu 修改 Grub 启动项
+## Ubuntu 修改 Grub 启动项
 
 > 修改针对多系统的系统启动引导顺序
 > 
@@ -209,13 +214,13 @@ sudo update-grub
 
 
 
-# 界面美化 (MacOS like)
+## 界面美化
 将 Ubuntu 的桌面包装成 MacOS 的模样，支持
 [`Monterey(TODO)`](https://www.apple.com/macos/monterey-preview/)
 /[`Bigsur`](https://www.apple.com.cn/macos/big-sur/)
 /[`Catalina`](https://www.apple.com.cn/newsroom/2019/10/macos-catalina-is-available-today/)
 
-## TweakTool
+### TweakTool
 要安装主题，首先要先安装相应的工具 `TweakTool`
 ```bash
 sudo apt update
