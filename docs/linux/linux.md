@@ -5,6 +5,7 @@
     - [软链接](#软链接)
   - [tmux](#tmux)
   - [vim](#vim)
+  - [内网穿透](#内网穿透)
   - [系统安装](#系统安装)
     - [WSL (Windows Subsystem for Linux)](#wsl-windows-subsystem-for-linux)
   - [软件](#软件)
@@ -29,6 +30,10 @@
 
 ## vim
 [vim](./vim/vim.md)
+
+## 内网穿透
+
+[frp](./frp/frp.md)
 
 ## 系统安装
 
