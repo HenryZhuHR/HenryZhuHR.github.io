@@ -1,0 +1,8 @@
+
+
+dataset: /home/zhr/dataset/gc10_yolo
+
+img_size:
+    height: 640
+
+trainset_percent: 0.9

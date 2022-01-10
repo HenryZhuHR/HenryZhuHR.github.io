@@ -27,14 +27,29 @@ export default defineUserConfig<DefaultThemeOptions>({
                 text: '深度学习',
                 children: [
                     {
-                        text: '基础',
-                        link: '/deepLearning/base/base.md',
-                        activeMatch: '^/base/',
+                        text: 'MLP',
+                        link: '/deepLearning/mlp/mlp.md',
+                        activeMatch: '^/mlp/',
                     },
                     {
-                        text: '任务',
-                        link: '/deepLearning/task/task.md',
-                        activeMatch: '^/task/',
+                        text: 'CNN',
+                        link: '/deepLearning/cnn/cnn.md',
+                        activeMatch: '^/cnn/',
+                    },
+                    {
+                        text: '图像分类任务',
+                        link: '/deepLearning/classification/classification.md',
+                        activeMatch: '^/classification/',
+                    },
+                    {
+                        text: '目标检测任务',
+                        link: '/deepLearning/object_dection/object_dection.md',
+                        activeMatch: '^/object_dection/',
+                    },
+                    {
+                        text: '正则化',
+                        link: '/deepLearning/norm/norm.md',
+                        activeMatch: '^/norm/',
                     },
                 ],
             },

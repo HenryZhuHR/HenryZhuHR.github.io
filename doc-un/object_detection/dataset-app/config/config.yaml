@@ -1,8 +1,0 @@
-
-
-dataset: ../dataset-traffic
-
-img_size:
-    width: 1920
-
-trainset_percent: 0.9
