@@ -239,14 +239,14 @@ $ tree
 
 将解压目录中的 `cuda/include/cudnn.h` 文件复制到 `/usr/local/cuda-11.0/include` 文件夹， `cuda/lib64/` 下所有文件复制到 `/usr/local/cuda-11.0/lib64` 文件夹中
 ```bash
-sudo cp cuda/include/* /usr/local/cuda-11.0/include
-sudo cp cuda/lib64/* /usr/local/cuda-11.0/lib64
+sudo cp cuda/include/* /usr/local/cuda-11.5/include
+sudo cp cuda/lib64/* /usr/local/cuda-11.5/lib64
 ```
 
 并添加读取权限
 ```bash
-sudo chmod a+r /usr/local/cuda-11.0/include/cudnn*
-sudo chmod a+r /usr/local/cuda-11.0/lib64/libcudnn*
+sudo chmod a+r /usr/local/cuda-11.5/include/cudnn*
+sudo chmod a+r /usr/local/cuda-11.5/lib64/libcudnn*
 ```
 
 

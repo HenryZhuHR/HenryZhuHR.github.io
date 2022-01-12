@@ -18,6 +18,10 @@
 [common]
 bind_port = 7000
 ```
+`bind_port` 是绑定的端口号，
+- 端口可以自定义，但是需要客户端和服务端进行统一。
+- 服务器需要在esc管理中配置安全组规则中暴露该端口
+
 
 先启动服务端(具有公网 IP 的机器)
 ```sh
@@ -47,6 +51,18 @@ remote_port = 6000
 ./frpc -c ./frpc.ini
 ```
 
+### 多个客户端的配置
+```ini
+[common]
+server_addr = x.x.x.x
+server_port = 7000
+
+[ssh001]   # 唯一 不可重复
+type = tcp
+local_ip = 127.0.0.1
+local_port = 22
+remote_port = 6001  # 唯一 不可重复
+```      
 
 ## 远程访问
 如果需要在后台长期运行，建议结合其他工具使用，例如 systemd 和 supervisor。
@@ -54,5 +70,6 @@ remote_port = 6000
 通过 SSH 访问内网机器，假设用户名为 test：
 ```sh
 ssh -oPort=6000 test@x.x.x.x
+ssh -oPort=6000 henryzhu@1.116.121.100
 ```
 frp 会将请求 `x.x.x.x:6000` 的流量转发到内网机器的 22 端口。
