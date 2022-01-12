@@ -15,7 +15,7 @@
     - [划分窗格](#划分窗格)
     - [切换窗格](#切换窗格)
   - [窗口管理](#窗口管理)
-  - [快捷键](#快捷键)
+- [快捷键](#快捷键)
 
 
 
@@ -165,12 +165,8 @@ tmux rename-session -t trainCNN trainLSTM
 
 ## 窗口管理
 
-<<<<<<< Updated upstream
 
 新建窗口 `ctrl+b c`
 重命名窗口 `ctrl+b ,`
 关闭窗口 `ctrl+b x`
 # 快捷键
-=======
-## 快捷键
->>>>>>> Stashed changes
