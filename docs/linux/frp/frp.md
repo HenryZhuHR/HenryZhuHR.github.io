@@ -4,8 +4,10 @@
 
 ## 下载软件
 在 [Github](https://github.com/fatedier/frp) 的 [Release](https://github.com/fatedier/frp/releases) 页面中下载到最新版本的客户端和服务端二进制文件，所有文件被打包在一个压缩包中
+## 常用参数
 
-## 部署
+
+## 基于 ssh 部署
 参考 [文档](https://gofrp.org/docs/) 进行配置和部署
 
 解压缩下载的压缩包，将其中的 frpc 拷贝到内网服务所在的机器上，将 frps 拷贝到具有公网 IP 的机器上，放置在任意目录。
@@ -64,12 +66,14 @@ local_port = 22
 remote_port = 6001  # 唯一 不可重复
 ```      
 
-## 远程访问
+### ssh 远程访问
 如果需要在后台长期运行，建议结合其他工具使用，例如 systemd 和 supervisor。
 
 通过 SSH 访问内网机器，假设用户名为 test：
 ```sh
 ssh -oPort=6000 test@x.x.x.x
-ssh -oPort=6000 henryzhu@1.116.121.100
 ```
 frp 会将请求 `x.x.x.x:6000` 的流量转发到内网机器的 22 端口。
+
+
+<!-- 参考 https://www.cnblogs.com/anonymous-test/p/13645148.html -->
