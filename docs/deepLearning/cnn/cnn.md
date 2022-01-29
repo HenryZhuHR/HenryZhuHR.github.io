@@ -1,25 +1,24 @@
 # 卷积神经网络CNN
 - [卷积神经网络CNN](#卷积神经网络cnn)
-- [为什么会产生卷积神经网络](#为什么会产生卷积神经网络)
-- [卷积计算过程](#卷积计算过程)
-  - [1D 卷积过程](#1d-卷积过程)
-  - [2D 卷积过程](#2d-卷积过程)
-  - [3D 卷积过程](#3d-卷积过程)
-- [Relu 函数](#relu-函数)
-- [感受野](#感受野)
-- [全零填充 (Padding)](#全零填充-padding)
-- [批标准化 (Batch Normalization, BN)](#批标准化-batch-normalization-bn)
-- [池化 (Pooling)](#池化-pooling)
-- [舍弃 (Dropout)](#舍弃-dropout)
-- [CNN 网络架构](#cnn-网络架构)
-- [基于CNN的手写数字识别](#基于cnn的手写数字识别)
+  - [卷积神经网络的产生](#卷积神经网络的产生)
+  - [卷积计算过程](#卷积计算过程)
+    - [1D 卷积过程](#1d-卷积过程)
+    - [2D 卷积过程](#2d-卷积过程)
+    - [3D 卷积过程](#3d-卷积过程)
+  - [Relu 函数](#relu-函数)
+  - [感受野](#感受野)
+  - [全零填充 (Padding)](#全零填充-padding)
+  - [批标准化 (Batch Normalization, BN)](#批标准化-batch-normalization-bn)
+  - [池化 (Pooling)](#池化-pooling)
+  - [CNN 网络架构](#cnn-网络架构)
+  - [基于CNN的手写数字识别](#基于cnn的手写数字识别)
 
 
 <!-- https://www.zybuluo.com/hanbingtao/note/485480 -->
-# 为什么会产生卷积神经网络
-全连接神经网络是一种很重要的神经网络，但是对于图像识别并不是很友好。用全连接网络处理图像有明显的缺点：
-- **待训练参数量太多**。 当我们输入的是一张 100×100 的图像时，其输入参数为 100×100×3通道=30000，实在是太多了，如果扩展到 1920×1080 的 1080p 图像时，输出参数就有 2073600 个，仅灰度图像就有 200多万个参数，训练难度可想而知。并且待优化参数过多容易导致模型过拟合。
-- **没有使用像素的位置信息，破坏了图像的空间信息**。 如果使用全连接网络的话，输入值就是按照离散的像素点进行输入，相邻像素点直接的关联性就被破坏了。
+## 卷积神经网络的产生
+全连接神经网络在处理图像有明显的缺点：
+- **待训练参数量太多**。 图像大小为 100×100 时，输入参数为 100×100×3(channel)=30000，并且待优化参数过多容易导致模型过拟合。
+- **丢失了像素的位置信息，破坏了图像的空间信息**。 如果使用全连接网络的话，输入值就是按照离散的像素点进行输入，相邻像素点直接的相关性就被破坏了。
 - **网络层数不可能太多**。 参数太多，训练时容易过拟合，就导致了网络的层数不可能太深。
 
 图像特征的提取需要采用卷积的方法，因此，**卷积神经网络** (CNN, Convolutional Neural Network) 就出现了。
@@ -27,15 +26,22 @@
 - **权值共享**。 两组神经元的连接可以共享同一个权重，而不是每个连接有一个不同的权重，以此进一步减少网络参数。
 - **下采样**。 可以使用下采样 (Pooling) 的方法来减少每层的样本数，进一步减少参数数量，同时还可以提升模型的鲁棒性，防止过拟合。 
 
-卷积神经网络更加适用于**图像**、**语言**识别的任务。为了理解 CNN ，需要提前引入一些新的概念，包括 [卷积计算过程](#卷积计算过程)、全新的激活函数 [Relu 函数](#relu-函数)、[感受野](#感受野)、[全零填充 (Padding)](#全零填充-padding)、[批标准化 (BN)](#批标准化-batch-normalization-bn)、[池化 (Pooling)](#池化-pooling)、[舍弃 (Dropout)](#舍弃-dropout)。
+卷积神经网络更加适用于**图像**任务。
 
-有了这些概念的铺垫，才可以更好地理解 [CNN 网络架构](#cnn-网络架构)。
+CNN概念包括：
+- 二维[卷积计算过程](#卷积计算过程)
+- 全新的激活函数 [Relu 函数](#relu-函数)
+- [感受野](#感受野)
+- [全零填充 (Padding)](#全零填充-padding)
+- [批标准化 (BN)](#批标准化-batch-normalization-bn)
+- [池化 (Pooling)](#池化-pooling)
 
-# 卷积计算过程
-## 1D 卷积过程
+
+## 卷积计算过程
+### 1D 卷积过程
 详见《数字信号处理》课程
 
-## 2D 卷积过程
+### 2D 卷积过程
 一个 5×5 的图像和一个 3×3 的 **2D卷积核** (**kernel**) 进行**步长** (**stride**) 为1的卷积计算可以得到一个 3×3 的**特性图** (**Feature Maps**)，卷积计算过程如下
 
 ![Conv2D](./images/con2d.gif)
@@ -68,35 +74,14 @@ $$\begin{aligned}
   a_{p,q}=f(\sum_{m=0}^{2} \sum_{n=0}^{2} w_{m,n} x_{(m+2\times p),(n+2\times q)}+\omega_b)
 \end{aligned}$$
 
-## 3D 卷积过程
+### 3D 卷积过程
 ![Conv3d](./images/con3d-stride_1.gif)
 
 RGB图像一般包含三个颜色通道 (channel) ，因此对于RGB图像的卷积过程就变成了三维卷积。
 
 图像矩阵变成了 **长度×宽度×深度** ，滤波器也会增加一个**深度**维度
 
-<!-- ## tensorflow 描述卷积计算层
-
-```python
-tf.nn.conv3d(
-    input, filters, strides, padding, data_format='NDHWC', dilations=None, name=None
-)
-```
-
-参数：
-- `input` : `5-D` 张量，数据类型 `half`, `bfloat16`, `float32`, `float64`。 形状 `[batch, in_depth, in_height, in_width, in_channels].`
-- `filter`: 形状 `[filter_depth, filter_height, filter_width, in_channels,out_channels]`。`in_channels` must match between input and filters
-- `strides`: 滑动窗口对于input每个维度的步幅，`strides[0]=strides[4]=1`。 `[1,1,1,1,1]` 即可 
-- `padding`: 填充方式。
-  - `"SAME"` 全零填充
-  - `"VALID"` 非全零填充
-- `data_format='NDHWC'`: 输入和输出数据的数据格式。默认为 `'NDHWC'` 。
-  - `'NDHWC'`，数据存储顺序为：`[batch，in_depth，in_height，in_width，in_channels]`
-  - `'NCDHW'`，数据存储顺序为：`[batch，in_channels，in_depth，in_height，in_width]`
-
-最后，其输出结果的格式同输入，也为 `[batch, in_depth, in_height, in_width, in_channels]` -->
-
-# Relu 函数
+## Relu 函数
 在全连接神经网络中，我们使用了 `Sigmoid`函数 作为激活函数来解决阶跃函数 `sgn` 不连续的特点。
 
 但是 `Sigmoid`函数 包含了指数运算 $e^{-x}$ ，计算复杂度就比较大了。
@@ -120,7 +105,7 @@ Relu函数的有如下优势
 - **稀疏性**，通过对大脑的研究发现，大脑在工作的时候只有大约5%的神经元是激活的，而采用sigmoid激活函数的人工神经网络，其激活率大约是50%。有论文声称人工神经网络在15%-30%的激活率时是比较理想的。因为relu函数在输入小于0时是完全不激活的，因此可以获得一个更低的激活率。
 
 
-# 感受野
+## 感受野
 **感受野（Receptive Field）** 定义是卷积神经网络每一层输出的特征图（feature map）上的像素点在输入图片上映射的区域大小。即，特征图上的一个点对应输入图上的区域的尺寸。
 
 **神经元的感受野越大，表示它提取特征的范围也就越大**，也就是可以提取到**更加全局的特征**。相反,**感受野越小,表示提取特征的范围越小**，表示包含的特征更加趋于表示**局部和细节的特征**。因此感受野的值可以用来大致判断每一层的抽象层次
@@ -138,25 +123,20 @@ Relu函数的有如下优势
 - $3 \times 3$ 卷积核的参数量：$3 \times 3 + 3 \times 3=18$（两次卷积过程，各有一个$3 \times 3$卷积核），计算量：$9(m-2)^2+9(m-4)^2=m^2-108m+180$
 - $5 \times 5$ 卷积核的参数量：$5 \times 5=25$，计算量：$25(m-4)^2=25m^2-200ml+400$
 
-得出一个结论是当 $m>10$ 时，两层 3×3 卷积核的计算性能优于 一层 5×5$ 卷积核
+得出一个结论是当 $m>10$ 时，两层 3×3 卷积核的计算性能优于 一层 $5×5$ 卷积核
 
 <!-- https://www.bilibili.com/video/BV1B7411L7Qt?p=27 -->
 
 
-# 全零填充 (Padding)
+## 全零填充 (Padding)
 输出图片边长
 <!-- - 全零填充: $\frac{输入图片边长}{步长}$ -->
 <!-- - 非全零填充: $\frac{输入图片边长-核边长+1}{步长}$ -->
 - 全零填充: $\frac{with}{stides}$
-- 非全零填充: $\frac{w-filter_size+1}{stides}$
+- 非全零填充: $\frac{w-filter\_size+1}{stides}$
 
-tensorflow 描述全零填充
-```python
-padding = 'SAME'    # 全零填充
-padding = 'VALID'   # 非全零填充
-```
-# 批标准化 (Batch Normalization, BN)
-# 池化 (Pooling)
+## 批标准化 (Batch Normalization, BN)
+## 池化 (Pooling)
 **池化层**的作用主要是进行**下采样**，以减少参数量。
 
 池化的方式一般有
@@ -165,9 +145,7 @@ padding = 'VALID'   # 非全零填充
 
 ![pooling](./images/Pooling.png)
 
-# 舍弃 (Dropout)
-
-# CNN 网络架构
+## CNN 网络架构
 ![CNN Architecture](./images/NetworkArchitecture.png)
 
 CNN 网络架构 (Architecture) 包括:
@@ -231,7 +209,7 @@ CNN 网络架构 (Architecture) 包括:
 典型场景：安防、电影、图像视频生成、游戏… -->
 
 
-# 基于CNN的手写数字识别
+## 基于CNN的手写数字识别
 
 MLP虽然可以实现手写数字识别，但是MLP无法对图像的二维特征进行提取和处理，而卷积操作可以很好提取图像的二维特征，因此我们希望采用[卷积神经网络（convolutional neural network，CNN）](https://zh-v2.d2l.ai/chapter_convolutional-neural-networks/index.html)会取得比MLP更好的效果。
 
@@ -369,3 +347,5 @@ for file_name in os.listdir(IMGAE_DIR):
 > 该部分代码自行填充，需要实现与[基于MLP的手写数字识别](#基于MLP的手写数字识别)中的测试结果相同的结果：
 > 
 <!-- > ![Result](./images/minist-res.png) -->
+
+

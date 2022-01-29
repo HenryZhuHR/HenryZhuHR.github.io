@@ -11,12 +11,18 @@
   - [Ubuntu 修改 Grub 启动项](#ubuntu-修改-grub-启动项)
   - [界面美化](#界面美化)
     - [TweakTool](#tweaktool)
-  - [安装 MacOS 主题样式](#安装-macos-主题样式)
-  - [程序坞修改](#程序坞修改)
-  - [最终效果](#最终效果)
+    - [安装 MacOS 主题样式](#安装-macos-主题样式)
+    - [程序坞修改](#程序坞修改)
+    - [最终效果](#最终效果)
 - [WSL2 (Windows Subsystem for Linux)](#wsl2-windows-subsystem-for-linux)
 
+
+
 ## 更换软件源
+换源可以参考各自官网的教程：
+- [清华大学源(tuna)](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
+- [中国科学技术大学源(ustc)](http://mirrors.ustc.edu.cn/help/ubuntu.html)
+
 Ubuntu 的软件源配置文件是 `/etc/apt/sources.list`，将系统自带的该文件做个备份
 ```bash
 cd /etc/apt
@@ -71,8 +77,6 @@ sudo hwclock --localtime --systohc
 ```
 
 ## 软件安装
-
-
 ```bash
 sudo apt install -y git gcc cmake tree
 # 安装 GNU 编译器工具和 GDB 调试器
@@ -260,7 +264,7 @@ sudo apt install -y gnome-shell-extensions
 > `User themes` 选项之后如果感叹号仍然没有消失，那么需要重新打开该软件
 
 
-## 安装 MacOS 主题样式
+### 安装 MacOS 主题样式
 - MacOS Monterey
   - 壁纸 
   - grub 主题 : [MacOS Monterey inspired grub theme](https://www.opendesktop.org/p/1577873/)
@@ -287,7 +291,7 @@ sudo apt install -y gnome-shell-extensions
 ![Application](./images/tweak-application.png)
 
 
-## 程序坞修改
+### 程序坞修改
 **Dash to Dock**可以把程序坞变成 MacOS 的样子
 ```bash
 sudo apt install -y chrome-gnome-shell
@@ -306,7 +310,7 @@ sudo apt install -y chrome-gnome-shell
 点击齿轮按钮，可以修改dock
 
 
-## 最终效果
+### 最终效果
 
 ![最终效果](./images/finalDesktop.png)
 

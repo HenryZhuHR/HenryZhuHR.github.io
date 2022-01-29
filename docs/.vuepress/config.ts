@@ -37,12 +37,12 @@ export default defineUserConfig<DefaultThemeOptions>({
                         activeMatch: '^/cnn/',
                     },
                     {
-                        text: '图像分类任务',
+                        text: '任务: 图像分类',
                         link: '/deepLearning/classification/classification.md',
                         activeMatch: '^/classification/',
                     },
                     {
-                        text: '目标检测任务',
+                        text: '任务: 目标检测',
                         link: '/deepLearning/object_dection/object_dection.md',
                         activeMatch: '^/object_dection/',
                     },
