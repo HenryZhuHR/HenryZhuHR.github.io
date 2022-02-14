@@ -6,7 +6,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     // base: './',
     lang: 'zh-CN',
     title: 'xyz',
-    description: 'xyz = 小宇宙',
+    description: 'nothing here',
 
     // 主题和它的配置
     theme: '@vuepress/theme-default',

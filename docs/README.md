@@ -14,19 +14,19 @@ features:
   - title: 深度学习
     details: 基于Pytorch
   - title: Python
-    details: 一些有趣的Python
+    details: Python
   - title: C++
-    details: 包括CMake、C++和简单的C
+    details: CMake、C++
 prev:
   text: Get Started
   link: https://github.com
 footer: Powered by VuePress | Copyright © 2021-present Henry Zhu
 ---
 
-## 深度学习
+<!-- ## 深度学习
 ### 基础
 - [多层感知器 MLP](./deepLearning/base/mlp/mlp.md)
 - [卷积神经网络 CNN](./deepLearning/base/cnn/cnn.md)
 
 ### 任务
-- [图像分类](./deepLearning/task/classification/classification.md)
+- [图像分类](./deepLearning/task/classification/classification.md) -->
