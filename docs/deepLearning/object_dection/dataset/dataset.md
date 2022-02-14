@@ -72,7 +72,7 @@
 ```shell
 pip3 install labelImg
 ```
-> 某些新架构的芯片可能出现 `pyqt5` 安装失败的情况，需要借助 [`brew`](https://brew.sh) 来安装
+> 某些新架构的芯片可能出现 `pyqt5` 安装失败的情况，需要借助 [`brew`](https://brew.sh) 来[安装](https://formulae.brew.sh/formula/pyqt#default)
 
 安装后，可以在命令行启动
 ```shell
