@@ -3,10 +3,11 @@ import type { DefaultThemeOptions } from 'vuepress'
 
 export default defineUserConfig<DefaultThemeOptions>({
     // 站点配置
+    port: 8080,
     // base: './',
     lang: 'zh-CN',
     title: 'xyz',
-    description: 'nothing here',
+    description: 'Boring research!',
 
     // 主题和它的配置
     theme: '@vuepress/theme-default',
@@ -82,15 +83,20 @@ export default defineUserConfig<DefaultThemeOptions>({
                 text: '技术',
                 children: [
                     {
-                        text: 'VScode',
-                        link: '/vscode/vscode.md',
-                        activeMatch: '^/vscode/',
-                    },
-                    {
                         text: 'Linux',
                         link: '/linux/linux.md',
                         activeMatch: '^/linux/',
                     },
+                    {
+                        text: 'homeAssistant',
+                        link: '/homeAssistant/homeAssistant.md',
+                        activeMatch: '^/homeAssistant/',
+                    },
+                    {
+                        text: 'VScode',
+                        link: '/vscode/vscode.md',
+                        activeMatch: '^/vscode/',
+                    },                    
                 ],
             }
         ],
