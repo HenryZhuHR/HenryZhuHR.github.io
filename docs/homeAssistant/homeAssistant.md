@@ -83,7 +83,7 @@ scp -r C:/Users/henryzhu/Downloads/xiaomi_miot_raw/custom_components/xiaomi_miot
 scp -r hacs pi@192.168.3.220:~/homeassistant/custom_components
 
 打开高级设置确保可以安装HACS
-![打开高级设置](./hacs-install-setting.png)
+![打开高级设置](./images//hacs-install-setting.png)
 
 配置 -> 通用 -> 服务控制 -> 服务管理  -> 重新启动
 
