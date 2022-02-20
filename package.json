@@ -1,24 +1,23 @@
 {
-  "name": "HenryZhuHR.github.io",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/HenryZhuHR/HenryZhuHR.github.io.git",
-  "author": "Henry Zhu <38650110+HenryZhuHR@users.noreply.github.com>",
-  "license": "MIT",
+  "name": "renovamen-blog",
+  "private": true,
+  "description": "Renovamen's blog, powered by VuePress 2, themed by Gungnir.",
+  "license": "Apache-2.0",
+  "author": "Renovamen <renovamenzxh@gmail.com>",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "docs:dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "docs:build": "vuepress build docs"
-  },
-  "devDependencies": {
-    "vuepress": "^2.0.0-beta.32"
+    "clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache dist",
+    "dev": "vuepress dev docs --clean-cache",
+    "build": "yarn clean && vuepress build docs --clean-cache",
+    "serve": "anywhere -h localhost -d dist"
   },
   "dependencies": {
-    "@renovamen/vuepress-plugin-katex": "^2.0.0-alpha.2",
-    "@renovamen/vuepress-plugin-md-plus": "^2.0.0-alpha.5",
-    "@renovamen/vuepress-plugin-reading-time": "^2.0.0-alpha.4",
-    "oh-vue-icons": "^1.0.0-rc1",
-    "vuepress-plugin-giscus": "^2.0.0-alpha.4"
+    "vuepress-theme-gungnir": "2.0.0-alpha.14"
+  },
+  "devDependencies": {
+    "anywhere": "^1.5.0",
+    "rimraf": "^3.0.2",
+    "vuepress": "^2.0.0-beta.35",
+    "vuepress-vite": "2.0.0-beta.35",
+    "vuepress-webpack": "2.0.0-beta.35"
   }
 }
