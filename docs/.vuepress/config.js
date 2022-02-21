@@ -2,7 +2,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
   title: "Henry Zhu",
-  description: "Henry Zhu (Renovamen) is a dragon lost in human world.",
+  description: "Henry Zhu' universe.",
   
   head: [
     [
@@ -74,10 +74,10 @@ module.exports = {
         path: "/img/home-bg/2.jpg",
         mask: "rgba(196, 176, 131, .1)"
       },
-      {
-        path: "/img/home-bg/3.jpg",
-        mask: "rgba(68, 74, 83, .1)"
-      },
+      // {
+      //   path: "/img/home-bg/3.jpg",
+      //   mask: "rgba(68, 74, 83, .1)"
+      // },
       {
         path: "/img/home-bg/4.jpg",
         mask: "rgba(19, 75, 50, .2)"
@@ -143,11 +143,16 @@ module.exports = {
       //   link: "/tags/",
       //   icon: "fa-tag"
       // },
-      // {
-      //   text: "Links",
-      //   link: "/links/",
-      //   icon: "fa-satellite-dish"
-      // },
+      {
+        text: "Links",
+        link: "/links/",
+        icon: "fa-satellite-dish"
+      },
+      {
+        text: "DL",
+        link: "/deepLearning/mlp/mlp.md",
+        icon: "fa-satellite-dish"
+      },
       // {
       //   text: "Portfolio",
       //   link: "https://portfolio.zxh.io/",
@@ -160,7 +165,7 @@ module.exports = {
     },
 
     footer: `
-      &copy; <a href="https://github.com/HenryZhuHR" target="_blank">Renovamen</a> 2022-today
+      &copy; <a href="https://github.com/HenryZhuHR" target="_blank">HenryZhuHR</a> 2022-today
       <br>
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
