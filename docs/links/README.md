@@ -1,18 +1,18 @@
 ---
 layout: Links
 title: Links
-links:
-  - title: 深度学习
-    items:
-      - sitename: DeepLearning
-        url: /README.md
-        img: /img/links/torchop.svg
-      - sitename: 微调模型
-        url: /deepLearning/deeplearning.md
-        img: /img/links/torchop.svg
-        desc: 模型微调
-  - title: C++
-  - title: Linux
+# links:
+#   - title: 深度学习
+#     items:
+#       - sitename: DeepLearning
+#         url: /README.md
+#         img: /img/links/torchop.svg
+#       - sitename: 微调模型
+#         url: /deepLearning/deeplearning.md
+#         img: /img/links/torchop.svg
+#         desc: 模型微调
+#   - title: C++
+#   - title: Linux
 ---
 <!-- 
   - title: 我自己能用就完事了

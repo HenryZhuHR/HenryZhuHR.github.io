@@ -148,11 +148,6 @@ module.exports = {
         link: "/links/",
         icon: "fa-satellite-dish"
       },
-      {
-        text: "DL",
-        link: "/deepLearning/mlp/mlp.md",
-        icon: "fa-satellite-dish"
-      },
       // {
       //   text: "Portfolio",
       //   link: "https://portfolio.zxh.io/",
