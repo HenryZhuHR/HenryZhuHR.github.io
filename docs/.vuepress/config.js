@@ -110,12 +110,12 @@ module.exports = {
       // only enable git plugin in production mode
       git: isProd,
       katex: true,
-      giscus: {
-        repo: "This-is-an-Apple/blog-giscus-comments",
-        repoId: "R_kgDOGl2SjQ",
-        category: "Announcements",
-        categoryId: "DIC_kwDOGl2Sjc4CAcxK"
-      },
+      // giscus: {
+      //   repo: "This-is-an-Apple/blog-giscus-comments",
+      //   repoId: "R_kgDOGl2SjQ",
+      //   category: "Announcements",
+      //   categoryId: "DIC_kwDOGl2Sjc4CAcxK"
+      // },
       mdPlus: {
         all: true
       },

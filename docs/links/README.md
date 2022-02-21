@@ -10,6 +10,7 @@ links:
       - sitename: 微调模型
         url: /deepLearning/deeplearning.md
         img: /img/links/torchop.svg
+        desc: 模型微调
   - title: C++
   - title: Linux
 ---
