@@ -1,12 +1,13 @@
 ---
 layout: Links
 title: Links
-# links:
-#   - title: 深度学习
-#     items:
-#       - sitename: DeepLearning
-#         url: /README.md
-#         img: /img/links/torchop.svg
+links:
+  - title: 深度学习
+    items:
+      - sitename: C++
+        url: http://HenryZhuHR.github.io/Hello-Cpp
+        img: /img/links/acm.svg
+        desc: C++ language
 #       - sitename: 微调模型
 #         url: /deepLearning/deeplearning.md
 #         img: /img/links/torchop.svg
