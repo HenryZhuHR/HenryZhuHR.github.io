@@ -2,7 +2,7 @@
 layout: Links
 title: Links
 links:
-  - title: 深度学习
+  - title: Coding
     items:
       - sitename: C++
         url: http://HenryZhuHR.github.io/Hello-Cpp
