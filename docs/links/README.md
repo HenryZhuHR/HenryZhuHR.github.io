@@ -12,7 +12,12 @@ links:
 #         url: /deepLearning/deeplearning.md
 #         img: /img/links/torchop.svg
 #         desc: 模型微调
-#   - title: C++
+  - title: Deep Learning
+    items:
+      - sitename: 微调模型
+        url: https://github.com/HenryZhuHR/Fine-tune-Model-Assignment
+        img: /img/links/cube.svg
+        desc: 模型微调
 #   - title: Linux
 ---
 <!-- 

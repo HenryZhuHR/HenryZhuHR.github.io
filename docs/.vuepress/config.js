@@ -3,7 +3,7 @@ const isProd = process.env.NODE_ENV === "production";
 module.exports = {
   title: "Henry Zhu",
   description: "Henry Zhu' universe.",
-  
+
   head: [
     [
       "link",
@@ -46,13 +46,13 @@ module.exports = {
     docsDir: "docs",
     docsBranch: "main",
 
-    hitokoto: "https://v1.hitokoto.cn?c=d&c=i", // enable hitokoto (一言) or not?
+    hitokoto: "",//"https://v1.hitokoto.cn?c=d&c=i", // enable hitokoto (一言) or not?
 
     // personal information
     personalInfo: {
       name: "Henry Zhu",
-      avatar: "/img/avatar.jpg",
-      description: "Boring",
+      avatar: "/images/global/avatar.png",
+      description: "这个世界很大 会有一点点不一样",
       sns: {
         github: "HenryZhuHR",
         // linkedin: "xiaohan-zou",
@@ -72,18 +72,15 @@ module.exports = {
       },
       {
         path: "/img/home-bg/2.jpg",
-        mask: "rgba(196, 176, 131, .1)"
+        mask: "rgba(196, 176, 131, .3)"
       },
-      // {
-      //   path: "/img/home-bg/3.jpg",
-      //   mask: "rgba(68, 74, 83, .1)"
-      // },
       {
         path: "/img/home-bg/4.jpg",
         mask: "rgba(19, 75, 50, .2)"
       },
       {
-        path: "/img/home-bg/5.jpg"
+        path: "/img/home-bg/5.jpg",
+        mask: "rgba(0, 0, 0, .2)"
       }
     ],
 
@@ -156,7 +153,7 @@ module.exports = {
     ],
 
     sidebar: {
-      
+
     },
 
     footer: `
