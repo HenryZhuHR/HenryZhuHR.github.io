@@ -11,7 +11,7 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: `/img/logo/favicon-16x16.png`
+        href: `/images/global/avatar.png`
       }
     ],
     [
@@ -20,7 +20,7 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "32x32",
-        href: `/img/logo/favicon-32x32.png`
+        href: `/images/global/avatar.png`
       }
     ],
     ["meta", { name: "application-name", content: "Henry Zhu" }],
@@ -31,7 +31,7 @@ module.exports = {
     ],
     [
       "link",
-      { rel: "apple-touch-icon", href: `/images/icons/apple-touch-icon.png` }
+      { rel: "apple-touch-icon", href: `/images/global/avatar.png` }
     ],
     ["meta", { name: "theme-color", content: "#377bb5" }],
     ["meta", { name: "msapplication-TileColor", content: "#377bb5" }]
