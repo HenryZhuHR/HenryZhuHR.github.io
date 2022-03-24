@@ -6,7 +6,7 @@ links:
     items:
       - sitename: C++
         url: http://HenryZhuHR.github.io/Hello-Cpp
-        img: /img/links/acm.svg
+        img: /images/links/acm.svg
         desc: C++ language
 #       - sitename: 微调模型
 #         url: /deepLearning/deeplearning.md
@@ -16,7 +16,7 @@ links:
     items:
       - sitename: 微调模型
         url: https://github.com/HenryZhuHR/Fine-tune-Model-Assignment
-        img: /img/links/cube.svg
+        img: /images/links/cube.svg
         desc: 模型微调
 #   - title: Linux
 ---
