@@ -12,7 +12,7 @@ function createWindow() {
     }
   })
 
-  // 加载 index.html
+  // 加载 index.html 或者 加载运行的界面
   // mainWindow.loadFile('dist/index.html')      // 打包
   mainWindow.loadURL("http://localhost:3000") // 调试
 
@@ -38,3 +38,6 @@ app.whenReady().then(() => {
 app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') app.quit()
 })
+
+// 在这个文件中，你可以包含应用程序剩余的所有部分的代码，
+// 也可以拆分成几个文件，然后用 require 导入。
