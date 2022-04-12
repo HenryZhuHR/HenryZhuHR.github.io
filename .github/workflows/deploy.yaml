@@ -43,8 +43,8 @@ jobs:
       - name: Build VuePress site
         run: yarn build
       # 运行构建脚本
-      - name: Copy CNAME
-        run: cp CNAME docs/.vuepress/dist
+      # - name: Copy CNAME
+        # run: cp CNAME docs/.vuepress/dist
 
 
       # 查看 workflow 的文档来获取更多信息
