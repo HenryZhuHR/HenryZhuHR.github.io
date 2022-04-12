@@ -1,12 +1,25 @@
 @use 'about';
 
+:root {
+  --c-brand:#2487dd;
+  // 行内代码块: 颜色&背景颜色
+  --inline-code-color: #f0430e;
+  --inline-code-bg-color: #fff2ef;
+}
+
 p.desc {
   color: var(--c-text-sub);
   font-size: 14px;
   margin-top: -20px !important;
 }
 
-.home-blog .hero .hero-content .hero-avatar{
+.home-blog .hero .hero-content .hero-avatar {
   background-color: rgba(255, 255, 255, 0.034);
   box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.794);
+}
+
+.theme-gungnir-content blockquote p {
+  $MarginTopButton: 3px;
+  margin-top: $MarginTopButton !important;
+  margin-bottom: $MarginTopButton !important;
 }

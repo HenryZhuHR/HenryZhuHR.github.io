@@ -1,9 +1,9 @@
 {
-  "name": "renovamen-blog",
+  "name": "henryzhuhr-blog",
   "private": true,
-  "description": "Renovamen's blog, powered by VuePress 2, themed by Gungnir.",
+  "description": "HenryZhuHR's blog, powered by VuePress 2, themed by Gungnir.",
   "license": "Apache-2.0",
-  "author": "Renovamen <renovamenzxh@gmail.com>",
+  "author": "HenryZhuHR <henry.zhuhr@qq.com>",
   "scripts": {
     "clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache dist",
     "dev": "vuepress dev docs --clean-cache",

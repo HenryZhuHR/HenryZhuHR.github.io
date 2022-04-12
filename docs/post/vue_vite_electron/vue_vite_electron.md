@@ -54,7 +54,7 @@ cd vite-project
 yarn
 yarn dev
 ```
-![vite-start](./vue_vite_electron/images/vite-start.png)
+![vite-start](./images/vite-start.png)
 
 在 `vite.config.ts` 中添加 `base` 配置
 ```ts
@@ -83,7 +83,7 @@ export default defineConfig({
     完整的<code>index.html</code>
   </summary>
 
-@[code](./vue_vite_electron/src/index.html)
+@[code](./src/index.html)
 </details>
 
 
@@ -156,11 +156,11 @@ app.whenReady().then(() => {
 ```sh
 yarn electron:serve
 ```
-![electron-start](./vue_vite_electron/images/electron-start.png)
+![electron-start](./images/electron-start.png)
 
 如果启用了 `mainWindow.webContents.openDevTools()` ，还会开启开发者工具方便进行调试
 
-![electron-start](./vue_vite_electron/images/electron-start-with_devtool.png)
+![electron-start](./images/electron-start-with_devtool.png)
 
 ### 管理窗口的生命周期
 
@@ -243,15 +243,15 @@ function createWindow () {
 <CodeGroup>
   <CodeGroupItem title="main.js">
 
-@[code](./vue_vite_electron/src/main.js)
+@[code](./src/main.js)
   </CodeGroupItem>
   <CodeGroupItem title="preload.js">
 
-@[code](./vue_vite_electron/src/preload.js)
+@[code](./src/preload.js)
   </CodeGroupItem>
   <CodeGroupItem title="index.html">
 
-@[code](./vue_vite_electron/src/index.html)
+@[code](./src/index.html)
   </CodeGroupItem>
 </CodeGroup>
 </details>
