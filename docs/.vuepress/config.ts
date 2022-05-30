@@ -3,6 +3,7 @@ import head from "./config/head";
 import {homeHeaderImages,pagesImages} from "./config/backgroundImages";
 
 module.exports = {
+  // base:'/blog/',
   title: "Henry Zhu",
   description: "Henry Zhu' universe.",
 

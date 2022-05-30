@@ -62,7 +62,7 @@ sudo docker restart homeassistant
 ### 访问 Home Assistant
 通过 `http://<raspberry-ip>:8123` 访问
 
-http://192.168.3.223:8123
+http://192.168.1.14:8123
 
 ## HACS 插件安装
 [HACS](https://github.com/hacs/integration)
@@ -77,10 +77,10 @@ sudo mkdir homeassistant/www
 上传
 
 ```bash
-scp -r hacs pi@192.168.3.215:~/homeassistant/custom_components
-scp -r C:/Users/henryzhu/Downloads/xiaomi_miot_raw/custom_components/xiaomi_miot_raw pi@192.168.3.215:~/homeassistant/custom_components
+scp -r hacs pi@192.168.1.14:~/homeassistant/custom_components
+scp -r C:/Users/henryzhu/Downloads/xiaomi_miot_raw/custom_components/xiaomi_miot_raw pi@192.168.1.14:~/homeassistant/custom_components
 ```
-scp -r hacs pi@192.168.3.220:~/homeassistant/custom_components
+scp -r hacs pi@192.168.1.14:~/homeassistant/custom_components
 
 打开高级设置确保可以安装HACS
 ![打开高级设置](./images//hacs-install-setting.png)
