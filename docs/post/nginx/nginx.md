@@ -1,19 +1,19 @@
 ---
 layout: Post
 title: Nginx 
-subtitle: Tips
+subtitle: Web 服务器必备的好东西
 author: HenryZhu
 date: 2022-03-31
 useHeaderImage: true
 headerImage: /images/home-background/quentin-mabille-26.jpg
-headerMask: rgb(67,65,47, .2)
+headerMask: rgb(0,0,0, .2)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
   - web
 ---
 
 # Nginx
-[nginx](https://nginx.org) 是毛子出品的高性能 HTTP 和反向代理 web 服务器
+[Nginx](https://nginx.org) 是毛子出品的高性能 HTTP 和反向代理 web 服务器
 
 ## install Nginx
 在 Linux 服务器上安装 Nginx

@@ -3,7 +3,7 @@ layout: Post
 title: Ubuntu Go!
 subtitle: 一些 Ubuntu 系统使用小技巧，一些技巧同样适用于其他 Linux 发行版本
 author: HenryZhu
-date: 2022-06-01
+date: 2022-06-26
 useHeaderImage: true
 headerImage: /images/home-background/terraform-studios-021122-totem-entrance-qm.jpg
 headerMask: rgb(0,0,0, .5)

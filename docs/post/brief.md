@@ -5,7 +5,7 @@ subtitle: Tips
 author: HenryZhu
 date: 2022-02-27
 useHeaderImage: true
-headerImage: /images/top.jpeg
+headerImage: /images/home-background/top.jpeg
 headerMask: rgb(67,65,47, .2)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:

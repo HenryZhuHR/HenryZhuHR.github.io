@@ -1,3 +1,16 @@
+---
+layout: Post
+title: Home Assistant
+subtitle: 连接米家和 Homekit 的好助手
+author: HenryZhu
+date: 2022-06-24
+useHeaderImage: true
+headerImage: /images/home-background/AppleHomekit.png
+headerMask: rgb(0,0,0, .8)
+permalinkPattern: /post/:year/:month/:day/:slug/
+tags:
+  - life
+---
 
 # Home Assistant
 [Home Assistant](https://www.home-assistant.io/) 是一款基于 Python 的智能家居开源系统，支持多品牌的智能家居设备，用于实现设备的语音控制、自动化等。

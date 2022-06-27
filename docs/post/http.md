@@ -5,7 +5,7 @@ subtitle: How to give up HTTP and Web Development? Oh, just give it up.
 author: HenryZhu
 date: 2022-03-19
 useHeaderImage: true
-headerImage: /images/newworld.png
+headerImage: /images/home-background/newworld.png
 headerMask: rgb(0,0,0, .5)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
