@@ -1,0 +1,1 @@
+const e={key:"v-65f93cba",path:"/deepLearning/deeplearning.html",title:"\u6DF1\u5EA6\u5B66\u4E60",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1645425892e3},readingTime:{minutes:1,words:8},filePathRelative:"deepLearning/deeplearning.md"};export{e as data};

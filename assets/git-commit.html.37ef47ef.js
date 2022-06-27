@@ -1,0 +1,1 @@
+const t={key:"v-6872546e",path:"/git-commit.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1648121232e3},readingTime:{minutes:1,words:14},filePathRelative:"git-commit.md"};export{t as data};

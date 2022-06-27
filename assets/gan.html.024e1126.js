@@ -1,0 +1,1 @@
+const e={key:"v-7aeef296",path:"/post/gan/gan.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"GAN",slug:"gan",children:[]},{level:2,title:"\u53C2\u8003",slug:"\u53C2\u8003",children:[]}],git:{updatedTime:1653874126e3},readingTime:{minutes:2,words:494},filePathRelative:"post/gan/gan.md"};export{e as data};
