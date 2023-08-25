@@ -1,0 +1,1 @@
+const e={key:"v-668130ce",path:"/findjob/computer-network/computer-network.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:169297712e4},readingTime:{minutes:1,words:25},filePathRelative:"findjob/computer-network/computer-network.md"};export{e as data};

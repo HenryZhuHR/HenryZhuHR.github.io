@@ -1,0 +1,12 @@
+// @font-face{
+//   font-family: "Smiley Sans";
+//   src:  url("/smiley-sans/SmileySans-Oblique.otf.woff2") format('woff2'),
+//   url("/smiley-sans/SmileySans-Oblique.otf") format('truetype'),
+//   url("/smiley-sans/SmileySans-Oblique.ttf.woff2") format('woff2');
+// }
+@font-face{
+  font-family: "Smiley Sans";
+  src:  url("./smiley-sans/SmileySans-Oblique.otf.woff2") format('woff2'),
+  url("./smiley-sans/SmileySans-Oblique.otf") format('truetype'),
+  url("./smiley-sans/SmileySans-Oblique.ttf.woff2") format('woff2');
+}

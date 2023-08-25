@@ -1,0 +1,1 @@
+const e={key:"v-231b6240",path:"/program/linux/basic/linux-file_system.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1666924289e3},filePathRelative:"program/linux/basic/linux-file_system.md"};export{e as data};
