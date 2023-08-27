@@ -1,1 +1,0 @@
-import{o as e,c as a}from"./app.dcfa0a8a.js";import{_ as c}from"./plugin-vue_export-helper.21dcd24c.js";const o={};function r(n,t){return e(),a("p",null,"conda update -n base -c defaults conda")}var d=c(o,[["render",r]]);export{d as default};
