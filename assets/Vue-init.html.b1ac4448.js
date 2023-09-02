@@ -1,1 +1,0 @@
-const e={key:"v-1b760db5",path:"/program/vue/Vue-init.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1669962997e3},readingTime:{minutes:1,words:81},filePathRelative:"program/vue/Vue-init.md"};export{e as data};
