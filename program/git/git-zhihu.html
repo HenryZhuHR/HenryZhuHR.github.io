@@ -23,7 +23,7 @@
 			}
     </script>
     <link rel="icon" type="image/png" sizes="32x32" href="/images/global/avatar-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/global/avatar-16x16.png"><meta name="application-name" content="Henry Zhu"><meta name="apple-mobile-web-app-title" content="Henry Zhu"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="apple-touch-icon" href="/images/global/avatar.png"><meta name="theme-color" content="#377bb5"><meta name="msapplication-TileColor" content="#377bb5"><title>【Git 使用教程】今天你 git commit 了么？ | Henry Zhu</title><meta name="description" content="Henry Zhu' universe.">
-    <link rel="modulepreload" href="/assets/app.2770ee4c.js"><link rel="modulepreload" href="/assets/git-zhihu.html.1d85fac5.js"><link rel="modulepreload" href="/assets/git-zhihu.html.a6a408de.js"><link rel="modulepreload" href="/assets/HEAD.672928ca.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/assets/app.a31c36bc.js"><link rel="modulepreload" href="/assets/git-zhihu.html.1d85fac5.js"><link rel="modulepreload" href="/assets/git-zhihu.html.3f526469.js"><link rel="modulepreload" href="/assets/HEAD.672928ca.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/assets/style.d121c7e5.css">
   </head>
   <body>
@@ -57,7 +57,7 @@
 </code></pre></div><p>配置用户名 <code>user.name</code> 和邮箱 <code>user.email</code>， 同时可以仅为当前项目 <code>–-local</code> 也可以全局配置 <code>--global</code> (默认)</p><div class="language-bash ext-sh"><pre class="language-bash"><code><span class="token function">git</span> config user.name  <span class="token string">&quot;your_name&quot;</span>
 <span class="token function">git</span> config user.email <span class="token string">&quot;your_email@gmail.com&quot;</span>
 <span class="token function">git</span> config --global user.name <span class="token string">&quot;your_name&quot;</span>
-</code></pre></div><h2 id="git-的一些概念" tabindex="-1"><a class="header-anchor" href="#git-的一些概念" aria-hidden="true">#</a> Git 的一些概念</h2><p><img src="/assets/git-space.70e7eb3c.png" alt="git仓库"></p><ul><li><strong>工作区 (Workspace)</strong>：写代码的地方，在编辑器(vscode)写的每一行代码都是在工作区进行的</li><li><strong>暂存区 (Index/Stage)</strong>：对工作区的代码进行暂存并等待提交，进入了暂存区才会真正进入版本控制阶段（<code>.git/index</code> 中保存了从工作区暂存的更改）</li><li><strong>本地仓库 (Repository)</strong>：提交后的代码在本地仓库中进行版本控制</li><li><strong>远程仓库 (Remote)</strong>：云端仓库，一般存在 Github 上</li></ul><h2 id="git-操作" tabindex="-1"><a class="header-anchor" href="#git-操作" aria-hidden="true">#</a> Git 操作</h2><h3 id="开始一个新项目" tabindex="-1"><a class="header-anchor" href="#开始一个新项目" aria-hidden="true">#</a> 开始一个新项目</h3><p>在开一个新项目时候，需要初始化一下，并且进行一次提交</p><div class="language-bash ext-sh"><pre class="language-bash"><code><span class="token function">git</span> init        <span class="token comment"># 初始化仓库，生成 .git 目录</span>
+</code></pre></div><h2 id="git-的一些概念" tabindex="-1"><a class="header-anchor" href="#git-的一些概念" aria-hidden="true">#</a> Git 的一些概念</h2><p><img src="/assets/git-space.41835a52.png" alt="git仓库"></p><ul><li><strong>工作区 (Workspace)</strong>：写代码的地方，在编辑器(vscode)写的每一行代码都是在工作区进行的</li><li><strong>暂存区 (Index/Stage)</strong>：对工作区的代码进行暂存并等待提交，进入了暂存区才会真正进入版本控制阶段（<code>.git/index</code> 中保存了从工作区暂存的更改）</li><li><strong>本地仓库 (Repository)</strong>：提交后的代码在本地仓库中进行版本控制</li><li><strong>远程仓库 (Remote)</strong>：云端仓库，一般存在 Github 上</li></ul><h2 id="git-操作" tabindex="-1"><a class="header-anchor" href="#git-操作" aria-hidden="true">#</a> Git 操作</h2><h3 id="开始一个新项目" tabindex="-1"><a class="header-anchor" href="#开始一个新项目" aria-hidden="true">#</a> 开始一个新项目</h3><p>在开一个新项目时候，需要初始化一下，并且进行一次提交</p><div class="language-bash ext-sh"><pre class="language-bash"><code><span class="token function">git</span> init        <span class="token comment"># 初始化仓库，生成 .git 目录</span>
 <span class="token function">touch</span> README.md <span class="token comment"># 给项目新建一个说明文件吧</span>
 <span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>       <span class="token comment"># （或者）添加文件到暂存区。</span>
 <span class="token function">git</span> commit      <span class="token comment"># 将暂存区内容添加到仓库中。</span>
@@ -120,6 +120,6 @@ a88ccec2 🛠 build: <span class="token function">add</span> images to project
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
     </span></footer></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.2770ee4c.js" defer></script>
+    <script type="module" src="/assets/app.a31c36bc.js" defer></script>
   </body>
 </html>

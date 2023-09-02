@@ -1,0 +1,1 @@
+import{r as t,o,c,e as a,w as n,d as r}from"./app.a31c36bc.js";import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";const _={},d=r("\u6570\u636E\u96C6\u5236\u4F5C");function p(i,l){const e=t("RouterLink");return o(),c("p",null,[a(e,{to:"/deepLearning/object_dection/dataset/dataset.html"},{default:n(()=>[d]),_:1})])}var f=s(_,[["render",p]]);export{f as default};
