@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-8de5692a","path":"/deepLearning/machineLeaning/Initialization.html","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1693912389000},"readingTime":{"minutes":1,"words":46},"filePathRelative":"deepLearning/machineLeaning/Initialization.md"}');export{e as data};
