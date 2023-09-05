@@ -1,1 +1,0 @@
-const e={key:"v-3eb968a4",path:"/deepLearning/machineLeaning/ema.html",title:"\u6307\u6570\u79FB\u52A8\u5E73\u5747 (EMA)",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u53C2\u8003",slug:"\u53C2\u8003",children:[]}],git:{updatedTime:169297712e4},readingTime:{minutes:1,words:207},filePathRelative:"deepLearning/machineLeaning/ema.md"};export{e as data};
