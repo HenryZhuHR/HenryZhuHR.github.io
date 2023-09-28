@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-6978d9fd","path":"/software/UTM/utm%E4%B8%B2%E5%8F%A3%E6%8C%82%E8%BD%BD.html","title":"\u5B89\u88C5locales","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1695044566000},"readingTime":{"minutes":2,"words":201},"filePathRelative":"software/UTM/utm\u4E32\u53E3\u6302\u8F7D.md"}');export{e as data};
