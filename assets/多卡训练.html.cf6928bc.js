@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5df8a2df","path":"/program/Nvidia/%E5%A4%9A%E5%8D%A1%E8%AE%AD%E7%BB%83.html","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1699151690000},"readingTime":{"minutes":2,"words":274},"filePathRelative":"program/Nvidia/\u591A\u5361\u8BAD\u7EC3.md"}');export{e as data};
