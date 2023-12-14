@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3d7efd6e","path":"/program/conda/conda.html","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1702541100000},"readingTime":{"minutes":1,"words":7},"filePathRelative":"program/conda/conda.md"}');export{e as data};

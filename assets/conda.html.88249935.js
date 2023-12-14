@@ -1,1 +1,0 @@
-import{_ as e,o as c,c as a,b as o}from"./app.df449ffc.js";const t={},n=o("p",null,"conda update -n base -c defaults conda",-1),s=[n];function _(d,r){return c(),a("div",null,s)}var f=e(t,[["render",_],["__file","conda.html.vue"]]);export{f as default};
