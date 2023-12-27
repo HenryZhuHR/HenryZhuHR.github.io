@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-651e07aa","path":"/software/carla/apis.html","title":"CARLA Python API","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"carla.Transform","slug":"carla-transform","children":[]}],"git":{"updatedTime":1703394168000},"readingTime":{"minutes":1,"words":119},"filePathRelative":"software/carla/apis.md"}');export{a as data};
