@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-cd287e2e","path":"/tags/c++/","title":"C++ | Tags","lang":"en-US","frontmatter":{"title":"C++ | Tags","layout":"Tags","blog":{"type":"category","name":"C++","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{e as data};

@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-e86ce852","path":"/tags/nvidia/","title":"nvidia | Tags","lang":"en-US","frontmatter":{"title":"nvidia | Tags","layout":"Tags","blog":{"type":"category","name":"nvidia","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{a as data};
