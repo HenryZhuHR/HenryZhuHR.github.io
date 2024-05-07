@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-ca9451a2","path":"/software/obsidian.html","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1714981589000},"readingTime":{"minutes":2,"words":300},"filePathRelative":"software/obsidian.md"}');export{e as data};
