@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-310c8ffd","path":"/software/clash/clash.html","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1715153464000},"readingTime":{"minutes":1,"words":88},"filePathRelative":"software/clash/clash.md"}');export{e as data};
