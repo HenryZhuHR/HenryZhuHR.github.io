@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-2fada8a6","path":"/MachineLearning/object_dection/object_dection.html","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1715084763000},"readingTime":{"minutes":1,"words":8},"filePathRelative":"MachineLearning/object_dection/object_dection.md"}');export{e as data};
