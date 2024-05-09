@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-1d8a98ca","path":"/tags/cmake/","title":"CMake | Tags","lang":"en-US","frontmatter":{"title":"CMake | Tags","layout":"Tags","blog":{"type":"category","name":"CMake","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{a as data};
