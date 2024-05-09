@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-d44f6cf4","path":"/program/macos/macos.html","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1715153464000},"filePathRelative":"program/macos/macos.md"}');export{a as data};
