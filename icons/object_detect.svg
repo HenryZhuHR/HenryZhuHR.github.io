@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-miterlimit: 2;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #333;
+        stroke-width: 50px;
+      }
+
+      .cls-3 {
+        fill: #f4f3f3;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #f8e71c;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        fill: #fcfcfc;
+      }
+    </style>
+  </defs>
+  <g id="logo">
+    <rect id="_背景" data-name=" 背景" class="cls-3" width="1000" height="1000"/>
+    <rect id="_背景白色" data-name="背景白色" class="cls-4" x="61.99" y="61.99" width="876.02" height="876.02" rx="87.7" ry="87.7"/>
+    <g id="object_detect">
+      <line class="cls-1" x1="326.22" y1="221.95" x2="673.78" y2="221.95"/>
+      <line class="cls-1" x1="326.22" y1="221.95" x2="673.78" y2="221.95"/>
+      <line class="cls-1" x1="326.22" y1="778.05" x2="673.78" y2="778.05"/>
+      <rect class="cls-2" x="708.53" y="152.44" width="139.02" height="139.02" rx="34.76" ry="34.76"/>
+      <rect class="cls-2" x="152.44" y="152.44" width="139.02" height="139.02" rx="34.76" ry="34.76"/>
+      <rect class="cls-2" x="708.53" y="708.53" width="139.02" height="139.02" rx="34.76" ry="34.76"/>
+      <rect class="cls-2" x="152.44" y="708.53" width="139.02" height="139.02" rx="34.76" ry="34.76"/>
+      <line class="cls-1" x1="778.05" y1="326.22" x2="778.05" y2="673.78"/>
+      <line class="cls-1" x1="221.95" y1="326.22" x2="221.95" y2="673.78"/>
+    </g>
+  </g>
+</svg>
