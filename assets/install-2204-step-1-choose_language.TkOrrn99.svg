@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ubuntu 22.04 language selection screen mockup</title>
+  <desc id="desc">A simplified SVG template of the Ubuntu 22.04 installer welcome screen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c1030"/>
+      <stop offset="50%" stop-color="#5d183b"/>
+      <stop offset="100%" stop-color="#1d1029"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#120812" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="880" height="600" rx="18" fill="#0b0b0d"/>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg)"/>
+  <rect x="32" y="24" width="816" height="16" rx="12" fill="#efebe4"/>
+  <circle cx="48" cy="32" r="4" fill="#ff5f57"/>
+  <circle cx="62" cy="32" r="4" fill="#febc2e"/>
+  <circle cx="76" cy="32" r="4" fill="#28c840"/>
+  <rect x="78" y="72" width="738" height="454" rx="18" fill="#fcfbfb" filter="url(#shadow)"/>
+  
+  <defs>
+    <linearGradient id="bg2204" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c53146"/>
+      <stop offset="100%" stop-color="#4b014f"/>
+    </linearGradient>
+    <filter id="shadow2204" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#120812" flood-opacity=".30"/>
+    </filter>
+  </defs>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg2204)"/>
+  <path d="M120 230l220-90 150 48-238 120Z" fill="#d34a64" opacity=".15"/>
+  <path d="M420 116l92-42 38 98-128 26Z" fill="#e06b7a" opacity=".12"/>
+  <path d="M590 184l94-56 42 112-112 60Z" fill="#8a1a6a" opacity=".16"/>
+  <rect x="164" y="78" width="552" height="438" rx="6" fill="#fff" filter="url(#shadow2204)"/>
+  <rect x="164" y="78" width="552" height="24" rx="6" fill="#2f2d2f"/>
+  <text x="440" y="95" text-anchor="middle" font-size="13" fill="#fff" font-family="PingFang SC, Helvetica, Arial, sans-serif">安装</text>
+  <circle cx="690" cy="90" r="7" fill="#e95420"/>
+  <path d="M686 86l8 8M694 86l-8 8" stroke="#fff" stroke-width="1.5"/>
+  
+  <text x="176" y="162" font-size="19" fill="#3e3940" font-family="PingFang SC, Helvetica, Arial, sans-serif">欢迎</text>
+  <line x1="164" y1="184" x2="716" y2="184" stroke="#ece8eb"/>
+  <rect x="176" y="192" width="102" height="250" fill="#fff" stroke="#d9d1d5"/>
+  <rect x="176" y="388" width="102" height="20" fill="#e95420"/>
+  <text x="182" y="207" font-size="11" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">ქართული</text>
+  <text x="182" y="227" font-size="11" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">Català</text>
+  <text x="182" y="247" font-size="11" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">Dansk</text>
+  <text x="182" y="267" font-size="11" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">Deutsch</text>
+  <text x="182" y="287" font-size="11" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">ภาษาไทย</text>
+  <text x="182" y="307" font-size="11" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">ລາວ</text>
+  <text x="182" y="327" font-size="11" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">한국어</text>
+  <text x="182" y="347" font-size="11" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">日本語</text>
+  <text x="182" y="402" font-size="11" fill="#fff" font-family="PingFang SC, Helvetica, Arial, sans-serif">中文(简体)</text>
+  <text x="182" y="424" font-size="11" fill="#5f565d" font-family="PingFang SC, Helvetica, Arial, sans-serif">中文(繁體)</text>
+  <g transform="translate(330 204)">
+    <rect x="6" y="14" width="96" height="104" fill="#2f2d2f"/>
+    <circle cx="54" cy="64" r="40" fill="#f6f2f3"/>
+    <circle cx="54" cy="64" r="12" fill="none" stroke="#2f2d2f" stroke-width="4"/>
+    <rect x="10" y="110" width="92" height="4" fill="#2f2d2f"/>
+    <rect x="10" y="130" width="96" height="28" rx="4" fill="#fff" stroke="#d9d1d5"/>
+    <text x="58" y="149" text-anchor="middle" font-size="12" fill="#4d454a" font-family="PingFang SC, Helvetica, Arial, sans-serif">试用 Ubuntu</text>
+  </g>
+  <g transform="translate(510 205)">
+    <rect x="14" y="14" width="110" height="78" rx="4" fill="#f6f2f3" stroke="#2f2d2f" stroke-width="7"/>
+    <path d="M4 108c20-8 110-8 130 0" fill="none" stroke="#2f2d2f" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="70" cy="53" r="19" fill="none" stroke="#2f2d2f" stroke-width="6"/>
+    <circle cx="70" cy="53" r="4" fill="#2f2d2f"/>
+    <circle cx="88" cy="53" r="4" fill="#2f2d2f"/>
+    <circle cx="61" cy="37" r="4" fill="#2f2d2f"/>
+    <circle cx="61" cy="69" r="4" fill="#2f2d2f"/>
+    <rect x="30" y="131" width="96" height="28" rx="4" fill="#fff" stroke="#d9d1d5"/>
+    <text x="78" y="150" text-anchor="middle" font-size="12" fill="#4d454a" font-family="PingFang SC, Helvetica, Arial, sans-serif">安装 Ubuntu</text>
+  </g>
+  <text x="296" y="380" font-size="11" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">您可以直接从此 CD 尝试 Ubuntu，而不用对您的电脑作任何更改。</text>
+  <text x="296" y="404" font-size="11" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">如果您已经准备完毕，您可以与现有系统并存（或者替代）方式将 Ubuntu 安装到您的电脑上。</text>
+  <text x="296" y="420" font-size="11" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">此过程无需耗时太久。</text>
+
+  <rect x="484" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d9d1d5"/>
+  <text x="516" y="476" text-anchor="middle" font-size="11" fill="#6c6168" font-family="PingFang SC, Helvetica, Arial, sans-serif">退出(Q)</text>
+  <rect x="554" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d9d1d5"/>
+  <text x="586" y="476" text-anchor="middle" font-size="11" fill="#6c6168" font-family="PingFang SC, Helvetica, Arial, sans-serif">后退(B)</text>
+  <rect x="624" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d6cfd3"/>
+  <text x="656" y="476" text-anchor="middle" font-size="11" fill="#6a6067" font-family="Helvetica, Arial, sans-serif">继续</text>
+  <g transform="translate(388 524)">
+    <circle cx="0" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="18" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/><circle cx="36" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/><circle cx="54" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/><circle cx="72" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/><circle cx="90" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/><circle cx="108" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/>
+  </g>
+
+</svg>

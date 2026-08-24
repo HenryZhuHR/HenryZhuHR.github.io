@@ -1,0 +1,8 @@
+<svg width="24" height="24" viewBox="0 0 20 20" fill="none">
+    <path
+        d="M18.889 5.5v12.278A2.222 2.222 0 0116.667 20H3.333a2.222 2.222 0 01-2.222-2.222V2.222C1.111.994 2.106 0 3.333 0H13.39l5.5 5.5z"
+        fill="#3E81FD" />
+    <path opacity=".3" d="M13.389 3.278V0l5.5 5.5H15.61a2.222 2.222 0 01-2.222-2.222z" fill="#fff" />
+    <rect opacity=".8" x="5" y="8" width="9" height="2" rx="1" fill="#fff" />
+    <rect opacity=".45" x="5" y="13" width="6" height="2" rx="1" fill="#fff" />
+</svg>

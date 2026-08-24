@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3f4f6e;
+      }
+
+      .cls-2 {
+        fill: #fcfcfc;
+      }
+
+      .cls-3 {
+        fill: #f4f3f3;
+      }
+    </style>
+  </defs>
+  <g id="logo">
+    <rect id="_背景" class="cls-3" width="1000" height="1000"/>
+    <rect id="_背景白色" data-name="背景白色" class="cls-2" x="61.99" y="61.99" width="876.02" height="876.02" rx="87.7" ry="87.7"/>
+    <g id="ros">
+      <circle class="cls-1" cx="500.14" cy="499.45" r="79.9"/>
+      <circle class="cls-1" cx="222.22" cy="776.51" r="79.9"/>
+      <circle class="cls-1" cx="500.14" cy="777.51" r="79.9"/>
+      <circle class="cls-1" cx="222.22" cy="499.45" r="79.9"/>
+      <circle class="cls-1" cx="777.26" cy="500.45" r="79.9"/>
+      <circle class="cls-1" cx="777.26" cy="777.51" r="79.9"/>
+      <circle class="cls-1" cx="222.22" cy="222.4" r="79.9"/>
+      <circle class="cls-1" cx="501.14" cy="222.4" r="79.9"/>
+      <circle class="cls-1" cx="777.26" cy="222.4" r="79.9"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4f46e5;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 20px;
+      }
+
+      .cls-1, .cls-2, .cls-5 {
+        stroke: #312e81;
+      }
+
+      .cls-6 {
+        fill: #eef2ff;
+      }
+
+      .cls-2 {
+        fill: #22d3ee;
+      }
+
+      .cls-3 {
+        stroke: #22d3ee;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .cls-7 {
+        fill: #312e81;
+      }
+
+      .cls-4 {
+        stroke: #4f46e5;
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-9 {
+        fill: #818cf8;
+        fill-rule: evenodd;
+      }
+
+      .cls-10 {
+        fill: #fcfcfc;
+      }
+
+      .cls-11 {
+        fill: #f4f3f3;
+      }
+    </style>
+  </defs>
+  <g id="logo">
+    <rect id="_背景" data-name=" 背景" class="cls-11" width="1000" height="1000"/>
+    <rect id="_背景白色" data-name="背景白色" class="cls-10" x="61.99" y="61.99" width="876.02" height="876.02" rx="87.7" ry="87.7"/>
+    <g id="agent-harness">
+      <rect class="cls-6" x="126.5" y="126.5" width="747" height="747" rx="64" ry="64"/>
+      <path class="cls-9" d="M500,214.04c-157.93,0-285.96,128.03-285.96,285.96s128.03,285.96,285.96,285.96,285.96-128.03,285.96-285.96-128.03-285.96-285.96-285.96ZM500,254.89c135.37,0,245.11,109.74,245.11,245.11s-109.74,245.11-245.11,245.11-245.11-109.74-245.11-245.11,109.74-245.11,245.11-245.11Z"/>
+      <path class="cls-4" d="M345.35,421.21l-72.95-40.85M654.65,421.21l72.95-40.85M345.35,578.79l-72.95,40.85M654.65,578.79l72.95,40.85"/>
+      <circle class="cls-2" cx="249.05" cy="371.61" r="37.93"/>
+      <circle class="cls-2" cx="750.95" cy="371.61" r="37.93"/>
+      <circle class="cls-2" cx="249.05" cy="628.39" r="37.93"/>
+      <circle class="cls-2" cx="750.95" cy="628.39" r="37.93"/>
+      <rect class="cls-1" x="319.09" y="342.43" width="361.83" height="315.14" rx="100.73" ry="100.73"/>
+      <path class="cls-5" d="M500,342.43v-49.61"/>
+      <circle class="cls-2" cx="500" cy="269.48" r="26.26"/>
+      <rect class="cls-8" x="371.61" y="403.71" width="256.78" height="180.91" rx="50.42" ry="50.42"/>
+      <circle class="cls-7" cx="441.64" cy="485.41" r="26.26"/>
+      <circle class="cls-7" cx="558.36" cy="485.41" r="26.26"/>
+      <path class="cls-3" d="M444.56,540.85h110.88"/>
+    </g>
+  </g>
+</svg>

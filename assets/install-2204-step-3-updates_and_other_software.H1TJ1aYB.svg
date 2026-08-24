@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ubuntu 22.04 updates and other software screen mockup</title>
+  <desc id="desc">A simplified SVG template of the Ubuntu 22.04 updates and software options screen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c1030"/>
+      <stop offset="50%" stop-color="#5d183b"/>
+      <stop offset="100%" stop-color="#1d1029"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#120812" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="880" height="600" rx="18" fill="#0b0b0d"/>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg)"/>
+  <rect x="32" y="24" width="816" height="16" rx="12" fill="#efebe4"/>
+  <circle cx="48" cy="32" r="4" fill="#ff5f57"/>
+  <circle cx="62" cy="32" r="4" fill="#febc2e"/>
+  <circle cx="76" cy="32" r="4" fill="#28c840"/>
+  <rect x="78" y="72" width="738" height="454" rx="18" fill="#fcfbfb" filter="url(#shadow)"/>
+  
+  <defs>
+    <linearGradient id="bg2204" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c53146"/>
+      <stop offset="100%" stop-color="#4b014f"/>
+    </linearGradient>
+    <filter id="shadow2204" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#120812" flood-opacity=".30"/>
+    </filter>
+  </defs>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg2204)"/>
+  <path d="M120 230l220-90 150 48-238 120Z" fill="#d34a64" opacity=".15"/>
+  <path d="M420 116l92-42 38 98-128 26Z" fill="#e06b7a" opacity=".12"/>
+  <path d="M590 184l94-56 42 112-112 60Z" fill="#8a1a6a" opacity=".16"/>
+  <rect x="164" y="78" width="552" height="438" rx="6" fill="#fff" filter="url(#shadow2204)"/>
+  <rect x="164" y="78" width="552" height="24" rx="6" fill="#2f2d2f"/>
+  <text x="440" y="95" text-anchor="middle" font-size="13" fill="#fff" font-family="PingFang SC, Helvetica, Arial, sans-serif">安装</text>
+  <circle cx="690" cy="90" r="7" fill="#e95420"/>
+  <path d="M686 86l8 8M694 86l-8 8" stroke="#fff" stroke-width="1.5"/>
+  
+  <text x="176" y="134" font-size="16" fill="#3e3940" font-family="PingFang SC, Helvetica, Arial, sans-serif">更新和其他软件</text>
+  <text x="176" y="174" font-size="12" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">您希望先安装哪些应用？</text>
+  <circle cx="186" cy="190" r="6" fill="#fff" stroke="#cfc6cb"/><text x="198" y="194" font-size="11" fill="#5f565d" font-family="PingFang SC, Helvetica, Arial, sans-serif">正常安装</text>
+  <circle cx="186" cy="228" r="6" fill="#8c4d92"/><circle cx="186" cy="228" r="2.5" fill="#fff"/><text x="198" y="232" font-size="11" fill="#5f565d" font-family="PingFang SC, Helvetica, Arial, sans-serif">最小安装</text>
+  <text x="176" y="266" font-size="12" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">其他选项</text>
+  <rect x="180" y="284" width="10" height="10" fill="#fff" stroke="#cfc6cb"/><text x="198" y="293" font-size="11" fill="#b0a8ad" font-family="PingFang SC, Helvetica, Arial, sans-serif">安装 Ubuntu 时下载更新</text>
+  <rect x="178" y="322" width="524" height="18" fill="#fff7f4" stroke="#eaa48c"/>
+  <rect x="180" y="326" width="10" height="10" fill="#8c4d92"/><path d="M182 331l2 2 4-5" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="198" y="335" font-size="11" fill="#5f565d" font-family="PingFang SC, Helvetica, Arial, sans-serif">为图形或无线硬件，以及其它媒体格式安装第三方软件</text>
+
+  <rect x="484" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d9d1d5"/>
+  <text x="516" y="476" text-anchor="middle" font-size="11" fill="#6c6168" font-family="PingFang SC, Helvetica, Arial, sans-serif">退出(Q)</text>
+  <rect x="554" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d9d1d5"/>
+  <text x="586" y="476" text-anchor="middle" font-size="11" fill="#6c6168" font-family="PingFang SC, Helvetica, Arial, sans-serif">后退(B)</text>
+  <rect x="624" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d6cfd3"/>
+  <text x="656" y="476" text-anchor="middle" font-size="11" fill="#6a6067" font-family="Helvetica, Arial, sans-serif">继续</text>
+  <g transform="translate(388 524)">
+    <circle cx="0" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="18" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="36" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="54" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/><circle cx="72" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/><circle cx="90" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/><circle cx="108" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/>
+  </g>
+
+</svg>

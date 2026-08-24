@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 10px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #e65e17;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #e65e17;
+      }
+
+      .cls-4, .cls-5, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke-width: 19px;
+      }
+
+      .cls-5 {
+        fill: #f4f3f3;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 51px;
+      }
+    </style>
+  </defs>
+  <g id="logo">
+    <rect id="_背景" data-name=" 背景" class="cls-5" width="1000" height="1000"/>
+    <rect id="_背景白色" data-name="背景白色" class="cls-3" x="40.49" y="40.49" width="919.01" height="919.01" rx="87.7" ry="87.7"/>
+    <g id="ubuntu">
+      <rect class="cls-4" x="121.5" y="121.5" width="757" height="757" rx="113.55" ry="113.55"/>
+      <circle class="cls-6" cx="500" cy="500" r="183.34"/>
+      <circle class="cls-1" cx="284.88" cy="500.74" r="60.62"/>
+      <circle class="cls-1" cx="673.73" cy="725.47" r="60.62"/>
+      <circle class="cls-1" cx="673.73" cy="274.53" r="60.62"/>
+      <path class="cls-2" d="M425.34,295.23l121.24,204.04M546.57,499.26h229.17-229.17l-124.2,206.99"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ubuntu 22.04 account setup screen mockup</title>
+  <desc id="desc">A simplified SVG template of the Ubuntu 22.04 account setup screen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c1030"/>
+      <stop offset="50%" stop-color="#5d183b"/>
+      <stop offset="100%" stop-color="#1d1029"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#120812" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="880" height="600" rx="18" fill="#0b0b0d"/>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg)"/>
+  <rect x="32" y="24" width="816" height="16" rx="12" fill="#efebe4"/>
+  <circle cx="48" cy="32" r="4" fill="#ff5f57"/>
+  <circle cx="62" cy="32" r="4" fill="#febc2e"/>
+  <circle cx="76" cy="32" r="4" fill="#28c840"/>
+  <rect x="78" y="72" width="738" height="454" rx="18" fill="#fcfbfb" filter="url(#shadow)"/>
+  
+  <defs>
+    <linearGradient id="bg2204" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c53146"/>
+      <stop offset="100%" stop-color="#4b014f"/>
+    </linearGradient>
+    <filter id="shadow2204" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#120812" flood-opacity=".30"/>
+    </filter>
+  </defs>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg2204)"/>
+  <path d="M120 230l220-90 150 48-238 120Z" fill="#d34a64" opacity=".15"/>
+  <path d="M420 116l92-42 38 98-128 26Z" fill="#e06b7a" opacity=".12"/>
+  <path d="M590 184l94-56 42 112-112 60Z" fill="#8a1a6a" opacity=".16"/>
+  <rect x="164" y="78" width="552" height="438" rx="6" fill="#fff" filter="url(#shadow2204)"/>
+  <rect x="164" y="78" width="552" height="24" rx="6" fill="#2f2d2f"/>
+  <text x="440" y="95" text-anchor="middle" font-size="13" fill="#fff" font-family="PingFang SC, Helvetica, Arial, sans-serif">安装</text>
+  <circle cx="690" cy="90" r="7" fill="#e95420"/>
+  <path d="M686 86l8 8M694 86l-8 8" stroke="#fff" stroke-width="1.5"/>
+  
+  <text x="176" y="134" font-size="18" fill="#3e3940" font-family="PingFang SC, Helvetica, Arial, sans-serif">您是谁？</text>
+  <line x1="164" y1="156" x2="716" y2="156" stroke="#ece8eb"/>
+  <text x="248" y="206" font-size="11" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">您的姓名：</text>
+  <rect x="302" y="194" width="214" height="20" fill="#fff" stroke="#d9d1d5"/><text x="310" y="208" font-size="11" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">ubuntu</text>
+  <circle cx="526" cy="204" r="6" fill="#26a641"/><path d="M523 204l2 2 4-5" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="230" y="232" font-size="11" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">您的计算机名：</text>
+  <rect x="302" y="220" width="114" height="20" fill="#fff" stroke="#d9d1d5"/><text x="310" y="234" font-size="10" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">lard-PC-Q35-ICH9-2009</text>
+  <circle cx="424" cy="230" r="6" fill="#26a641"/><path d="M421 230l2 2 4-5" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="222" y="258" font-size="11" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">选择一个用户名：</text>
+  <rect x="302" y="246" width="90" height="20" fill="#fff7f4" stroke="#eaa48c"/><text x="310" y="260" font-size="11" fill="#e95420" font-family="Helvetica, Arial, sans-serif">ubuntu</text>
+  <circle cx="400" cy="256" r="6" fill="#26a641"/><path d="M397 256l2 2 4-5" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="230" y="284" font-size="11" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">选择一个密码：</text>
+  <rect x="302" y="272" width="110" height="20" fill="#fff" stroke="#d9d1d5"/><text x="310" y="286" font-size="11" fill="#111" font-family="Helvetica, Arial, sans-serif">●●●●●●●</text>
+  <circle cx="401" cy="282" r="5" fill="none" stroke="#9b9198" stroke-width="1.3"/><circle cx="401" cy="282" r="1.5" fill="#9b9198"/>
+  <text x="420" y="286" font-size="10" fill="#e95420" font-family="PingFang SC, Helvetica, Arial, sans-serif">密码强度：较弱</text>
+  <text x="230" y="310" font-size="11" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">确认您的密码：</text>
+  <rect x="302" y="298" width="110" height="20" fill="#fff" stroke="#eaa48c"/><text x="310" y="312" font-size="11" fill="#111" font-family="Helvetica, Arial, sans-serif">●●●●●●●</text>
+  <circle cx="422" cy="308" r="6" fill="#26a641"/><path d="M419 308l2 2 4-5" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="302" y="328" width="10" height="10" fill="#fff" stroke="#cfc6cb"/><text x="318" y="337" font-size="11" fill="#5f565d" font-family="PingFang SC, Helvetica, Arial, sans-serif">自动登录</text>
+  <circle cx="307" cy="346" r="6" fill="#8c4d92"/><circle cx="307" cy="346" r="2.5" fill="#fff"/><text x="320" y="350" font-size="11" fill="#5f565d" font-family="PingFang SC, Helvetica, Arial, sans-serif">登录时需要密码</text>
+  <rect x="302" y="364" width="10" height="10" fill="#fff" stroke="#cfc6cb"/><text x="318" y="373" font-size="11" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">Use Active Directory</text>
+  <text x="302" y="390" font-size="10" fill="#a59ca3" font-family="Helvetica, Arial, sans-serif">You'll enter domain and other details in the next step.</text>
+
+  <rect x="484" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d9d1d5"/>
+  <text x="516" y="476" text-anchor="middle" font-size="11" fill="#6c6168" font-family="PingFang SC, Helvetica, Arial, sans-serif">退出(Q)</text>
+  <rect x="554" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d9d1d5"/>
+  <text x="586" y="476" text-anchor="middle" font-size="11" fill="#6c6168" font-family="PingFang SC, Helvetica, Arial, sans-serif">后退(B)</text>
+  <rect x="624" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d6cfd3"/>
+  <text x="656" y="476" text-anchor="middle" font-size="11" fill="#6a6067" font-family="Helvetica, Arial, sans-serif">继续</text>
+  <g transform="translate(388 524)">
+    <circle cx="0" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="18" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="36" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="54" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="72" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="90" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="108" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/>
+  </g>
+
+</svg>

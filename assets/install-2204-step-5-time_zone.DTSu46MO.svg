@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ubuntu 22.04 time zone screen mockup</title>
+  <desc id="desc">A vector-only SVG template of the Ubuntu 22.04 installer time zone selection screen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c1030"/>
+      <stop offset="50%" stop-color="#5d183b"/>
+      <stop offset="100%" stop-color="#1d1029"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#120812" flood-opacity=".28"/>
+    </filter>
+    <clipPath id="timezone-map-clip">
+      <rect x="165" y="190" width="551" height="204"/>
+    </clipPath>
+  </defs>
+  <rect width="880" height="600" rx="18" fill="#0b0b0d"/>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg)"/>
+  <rect x="32" y="24" width="816" height="16" rx="12" fill="#efebe4"/>
+  <circle cx="48" cy="32" r="4" fill="#ff5f57"/>
+  <circle cx="62" cy="32" r="4" fill="#febc2e"/>
+  <circle cx="76" cy="32" r="4" fill="#28c840"/>
+  <rect x="78" y="72" width="738" height="454" rx="18" fill="#fcfbfb" filter="url(#shadow)"/>
+  
+  <defs>
+    <linearGradient id="bg2204" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c53146"/>
+      <stop offset="100%" stop-color="#4b014f"/>
+    </linearGradient>
+    <filter id="shadow2204" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#120812" flood-opacity=".30"/>
+    </filter>
+  </defs>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg2204)"/>
+  <path d="M120 230l220-90 150 48-238 120Z" fill="#d34a64" opacity=".15"/>
+  <path d="M420 116l92-42 38 98-128 26Z" fill="#e06b7a" opacity=".12"/>
+  <path d="M590 184l94-56 42 112-112 60Z" fill="#8a1a6a" opacity=".16"/>
+  <rect x="164" y="78" width="552" height="438" rx="6" fill="#fff" filter="url(#shadow2204)"/>
+  <rect x="164" y="78" width="552" height="24" rx="6" fill="#2f2d2f"/>
+  <text x="440" y="95" text-anchor="middle" font-size="13" fill="#fff" font-family="PingFang SC, Helvetica, Arial, sans-serif">安装</text>
+  <circle cx="690" cy="90" r="7" fill="#e95420"/>
+  <path d="M686 86l8 8M694 86l-8 8" stroke="#fff" stroke-width="1.5"/>
+  
+  <rect x="35" y="23" width="810" height="24" rx="8" fill="#efeae4"/>
+  <circle cx="49" cy="35" r="4" fill="#ff5f57"/>
+  <circle cx="63" cy="35" r="4" fill="#febc2e"/>
+  <circle cx="77" cy="35" r="4" fill="#28c840"/>
+  <path d="M98 31v8M111 31v8" stroke="#8b8681" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M124 31l-2 4 2 4M130 31l2 4-2 4" stroke="#8b8681" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="145" y="39" font-size="11" fill="#353233" font-family="Helvetica, Arial, sans-serif">Ubuntu20.04 x64</text>
+  <g fill="none" stroke="#8b8681" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="754" cy="35" r="2.5"/>
+    <path d="M773 33h5M775.5 30.5v5"/>
+    <path d="M793 35l4-4M793 31l4 4"/>
+    <circle cx="814" cy="35" r="3.3"/>
+    <path d="M832 32h8v6h-8z"/>
+  </g>
+  <rect x="35" y="47" width="810" height="16" fill="#101010"/>
+  <text x="440" y="59" text-anchor="middle" font-size="11" fill="#f2f2f2" font-family="Helvetica, Arial, sans-serif">May 14 11:49</text>
+  <g fill="#f2f2f2">
+    <circle cx="792" cy="55" r="2.3"/>
+    <circle cx="805" cy="55" r="2.3"/>
+    <circle cx="818" cy="55" r="2.3"/>
+    <path d="M828 53h7l-3.5 5z"/>
+  </g>
+  <text x="177" y="172" font-size="19" fill="#2f2a2e" font-family="PingFang SC, Helvetica, Arial, sans-serif">您在什么地方？</text>
+  <line x1="164" y1="184" x2="716" y2="184" stroke="#ece8eb"/>
+  <rect x="165" y="190" width="551" height="204" fill="#a8bddb"/>
+  <g clip-path="url(#timezone-map-clip)">
+  <g opacity=".9">
+    <rect x="190" y="190" width="2" height="204" fill="#8fa4c2"/>
+    <rect x="230" y="190" width="1.5" height="204" fill="#8fa4c2"/>
+    <rect x="270" y="190" width="1.5" height="204" fill="#8fa4c2"/>
+    <rect x="310" y="190" width="1.5" height="204" fill="#8fa4c2"/>
+    <rect x="350" y="190" width="1.5" height="204" fill="#8fa4c2"/>
+    <rect x="390" y="190" width="1.5" height="204" fill="#8fa4c2"/>
+    <rect x="430" y="190" width="1.5" height="204" fill="#8fa4c2"/>
+    <rect x="470" y="190" width="1.5" height="204" fill="#8fa4c2"/>
+    <rect x="510" y="190" width="1.5" height="204" fill="#8fa4c2"/>
+    <rect x="550" y="190" width="1.5" height="204" fill="#8fa4c2"/>
+    <rect x="590" y="190" width="1.5" height="204" fill="#8fa4c2"/>
+    <rect x="630" y="190" width="1.5" height="204" fill="#8fa4c2"/>
+    <rect x="669" y="190" width="2" height="204" fill="#3a68b3" opacity=".75"/>
+  </g>
+  <g fill="#fffefe">
+    <path d="M168 224c21-3 36 3 47 12 10-6 24-8 35-5 11-17 34-31 69-30 6-11 17-17 30-18 18-2 32 1 47 12 8 7 20 8 38 6 18-2 35 4 47 15 12-10 26-14 45-13 18 0 34 7 44 18 15-6 29-8 43-6 17 2 31 9 40 22 18 3 31 10 41 22 5 6 11 15 15 26-28-5-51 0-69 11-20 11-46 16-79 13-18-1-35 3-53 12-15 7-33 12-53 10-20-2-34 0-47 7-12 7-24 9-37 8-18-1-27-10-30-27-18-2-31-11-40-26-15 1-27-4-38-14-11-10-20-13-34-12-11 1-24-2-39-11-15-8-35-10-62-5Z"/>
+    <path d="M165 242l24 0 10 7 19-2 13 10-1 11-12 12-18 3-18-9-10-14Z"/>
+    <path d="M263 211l20 7 8 15-6 17-18 7-17-8-8-13 8-15Z"/>
+    <path d="M297 245l17-6 28 4 11 11-2 14-15 8-26-4-12-11Z"/>
+    <path d="M371 231l30-9 39 4 22 13-3 17-22 12-38-4-22-13Z"/>
+    <path d="M520 246l14-3 17 10 4 18-8 11-15 4-14-10-4-15Z"/>
+    <path d="M635 283l15 4 8 13-4 13-14 2-8-12 3-12Z"/>
+    <path d="M259 307l35 20 11 30-20 28-23-16-6-32Z"/>
+    <path d="M557 333l21 8 12 19-13 13-20-7-8-16Z"/>
+  </g>
+  <g fill="#84c447">
+    <path d="M545 239l29-12 32 8 25 20 14 23-7 33-25 25-36 9-33-16-17-31 2-33Z"/>
+    <path d="M611 309l18 8 16 24-10 20-26 4-18-17 2-23Z"/>
+    <path d="M644 329l26 13 12 20-9 17-22 6-15-13 1-21Z"/>
+    <path d="M582 347l12 12 11 21-9 12-16-4-5-19Z"/>
+  </g>
+  <circle cx="598" cy="274" r="4" fill="#e35042"/>
+  <circle cx="598" cy="274" r="1.6" fill="#fff"/>
+  </g>
+  <rect x="178" y="404" width="504" height="18" rx="2" fill="#fff" stroke="#d3cdd1"/>
+  <text x="190" y="417" font-size="11" fill="#2d272b" font-family="Helvetica, Arial, sans-serif">Shanghai</text>
+
+  <rect x="560" y="432" width="64" height="20" rx="3" fill="#fff" stroke="#d9d1d5"/>
+  <text x="592" y="446" text-anchor="middle" font-size="11" fill="#6c6168" font-family="PingFang SC, Helvetica, Arial, sans-serif">后退(B)</text>
+  <rect x="627" y="432" width="64" height="20" rx="3" fill="#fff" stroke="#d6cfd3"/>
+  <text x="659" y="446" text-anchor="middle" font-size="11" fill="#6a6067" font-family="PingFang SC, Helvetica, Arial, sans-serif">继续</text>
+  <g transform="translate(387 493)">
+    <circle cx="0" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="18" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="36" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="54" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="72" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="90" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/>
+  </g>
+
+</svg>

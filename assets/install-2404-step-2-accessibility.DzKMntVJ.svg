@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ubuntu accessibility screen mockup</title>
+  <desc id="desc">A simplified SVG template of the Ubuntu installer accessibility screen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c1030"/>
+      <stop offset="50%" stop-color="#5d183b"/>
+      <stop offset="100%" stop-color="#1d1029"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#120812" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="880" height="600" rx="18" fill="#0b0b0d"/>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg)"/>
+  <rect x="32" y="24" width="816" height="16" rx="12" fill="#efebe4"/>
+  <circle cx="48" cy="32" r="4" fill="#ff5f57"/>
+  <circle cx="62" cy="32" r="4" fill="#febc2e"/>
+  <circle cx="76" cy="32" r="4" fill="#28c840"/>
+  <rect x="78" y="72" width="738" height="454" rx="18" fill="#fcfbfb" filter="url(#shadow)"/>
+  
+  <rect x="32" y="40" width="816" height="28" fill="#181818"/>
+  <text x="440" y="59" text-anchor="middle" font-size="13" fill="#f2f2f2" font-family="Helvetica, Arial, sans-serif">May 14 06:22</text>
+  <rect x="32" y="68" width="42" height="468" fill="#251a28" opacity=".82"/>
+  <g fill="#f0f0f0" opacity=".98">
+    <circle cx="54" cy="86" r="8"/><circle cx="54" cy="132" r="8"/><circle cx="54" cy="178" r="8"/><circle cx="54" cy="224" r="8"/><circle cx="54" cy="270" r="8"/><circle cx="54" cy="316" r="8"/><circle cx="54" cy="362" r="8"/><circle cx="54" cy="408" r="8"/><circle cx="54" cy="500" r="8"/>
+  </g>
+  <rect x="778" y="394" width="46" height="68" rx="4" fill="#e95420" opacity=".92"/>
+  <rect x="782" y="398" width="24" height="24" rx="4" fill="#fff" opacity=".9"/>
+  <text x="801" y="446" text-anchor="middle" font-size="8" fill="#fff" font-family="Helvetica, Arial, sans-serif">Install Ubuntu</text>
+  <rect x="786" y="474" width="30" height="30" rx="4" fill="#6f626f" opacity=".65"/>
+  <text x="801" y="524" text-anchor="middle" font-size="9" fill="#fff" font-family="Helvetica, Arial, sans-serif">Home</text>
+  <text x="447" y="90" text-anchor="middle" font-size="14" fill="#7c7178" font-family="Helvetica, Arial, sans-serif">可访问性</text>
+  <circle cx="772" cy="88" r="8" fill="#f3f0f2" stroke="#d8d1d5"/>
+  <path d="M768 84l8 8M776 84l-8 8" stroke="#8f838c" stroke-width="1.5"/>
+  
+  <g transform="translate(154 198)">
+    <ellipse cx="110" cy="132" rx="74" ry="28" fill="#f2f2f4"/>
+    <ellipse cx="110" cy="124" rx="66" ry="22" fill="#fff" stroke="#d9d1d5"/>
+    <path d="M110 52c10 0 18 8 18 18s-8 18-18 18-18-8-18-18 8-18 18-18Zm0 38v72" fill="none" stroke="#e95420" stroke-width="12" stroke-linecap="round"/>
+    <path d="M110 106l-42 32M110 106l40-36M110 148l-14 58M110 148l34 58" fill="none" stroke="#e95420" stroke-width="12" stroke-linecap="round"/>
+    <path d="M54 92c14-24 38-38 72-42" fill="none" stroke="#e95420" stroke-width="4" stroke-linecap="round"/>
+    <path d="M166 184c-20 18-44 26-74 26" fill="none" stroke="#e95420" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="420" y="168" font-size="15" fill="#5c5358" font-family="PingFang SC, Helvetica, Arial, sans-serif">Ubuntu中的可访问性</text>
+  <text x="420" y="194" font-size="12" fill="#857a81" font-family="PingFang SC, Helvetica, Arial, sans-serif">在您安装之前，按您的需要自定义 Ubuntu。您之后可以在“系统设置”中更改它们。</text>
+  
+  <rect x="420" y="218" width="278" height="48" rx="6" fill="#fff" stroke="#e3dbe0"/>
+  <circle cx="442" cy="240" r="7" fill="#fff" stroke="#cfc6cb"/>
+  <text x="460" y="238" font-size="14" fill="#5a5057" font-family="Helvetica, Arial, sans-serif">视觉</text>
+  <text x="460" y="254" font-size="11" fill="#8c8288" font-family="Helvetica, Arial, sans-serif"></text>
+
+  
+  <rect x="420" y="268" width="278" height="48" rx="6" fill="#fff" stroke="#e3dbe0"/>
+  <circle cx="442" cy="290" r="7" fill="#fff" stroke="#cfc6cb"/>
+  <text x="460" y="288" font-size="14" fill="#5a5057" font-family="Helvetica, Arial, sans-serif">听觉</text>
+  <text x="460" y="304" font-size="11" fill="#8c8288" font-family="Helvetica, Arial, sans-serif"></text>
+
+  
+  <rect x="420" y="318" width="278" height="48" rx="6" fill="#fff" stroke="#e3dbe0"/>
+  <circle cx="442" cy="340" r="7" fill="#fff" stroke="#cfc6cb"/>
+  <text x="460" y="338" font-size="14" fill="#5a5057" font-family="Helvetica, Arial, sans-serif">打字</text>
+  <text x="460" y="354" font-size="11" fill="#8c8288" font-family="Helvetica, Arial, sans-serif"></text>
+
+  
+  <rect x="420" y="368" width="278" height="48" rx="6" fill="#fff" stroke="#e3dbe0"/>
+  <circle cx="442" cy="390" r="7" fill="#fff" stroke="#cfc6cb"/>
+  <text x="460" y="388" font-size="14" fill="#5a5057" font-family="Helvetica, Arial, sans-serif">指向和点击</text>
+  <text x="460" y="404" font-size="11" fill="#8c8288" font-family="Helvetica, Arial, sans-serif"></text>
+
+
+  <rect x="126" y="488" width="82" height="28" rx="8" fill="#fff" stroke="#d9d1d5"/><text x="167" y="506" text-anchor="middle" font-size="12" fill="#7f737a" font-family="PingFang SC, Helvetica, Arial, sans-serif">返回</text>
+  <rect x="688" y="488" width="92" height="30" rx="8" fill="#f2f2f3"/>
+  <text x="734" y="507" text-anchor="middle" font-size="14" fill="#aca5ab" font-family="PingFang SC, Helvetica, Arial, sans-serif">下一步</text>
+  <g transform="translate(384 500)">
+    <circle cx="0" cy="0" r="4" fill="#e95420"/><circle cx="14" cy="0" r="4" fill="#d6cfd3"/><circle cx="28" cy="0" r="4" fill="#d6cfd3"/><circle cx="42" cy="0" r="4" fill="#d6cfd3"/><circle cx="56" cy="0" r="4" fill="#d6cfd3"/><circle cx="70" cy="0" r="4" fill="#d6cfd3"/><circle cx="84" cy="0" r="4" fill="#d6cfd3"/><circle cx="98" cy="0" r="4" fill="#d6cfd3"/><circle cx="112" cy="0" r="4" fill="#d6cfd3"/><circle cx="126" cy="0" r="4" fill="#d6cfd3"/>
+  </g>
+
+</svg>

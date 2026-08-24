@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ubuntu install type screen mockup</title>
+  <desc id="desc">A simplified SVG template of the Ubuntu installer install type screen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c1030"/>
+      <stop offset="50%" stop-color="#5d183b"/>
+      <stop offset="100%" stop-color="#1d1029"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#120812" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="880" height="600" rx="18" fill="#0b0b0d"/>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg)"/>
+  <rect x="32" y="24" width="816" height="16" rx="12" fill="#efebe4"/>
+  <circle cx="48" cy="32" r="4" fill="#ff5f57"/>
+  <circle cx="62" cy="32" r="4" fill="#febc2e"/>
+  <circle cx="76" cy="32" r="4" fill="#28c840"/>
+  <rect x="78" y="72" width="738" height="454" rx="18" fill="#fcfbfb" filter="url(#shadow)"/>
+  
+  <rect x="32" y="40" width="816" height="28" fill="#181818"/>
+  <text x="440" y="59" text-anchor="middle" font-size="13" fill="#f2f2f2" font-family="Helvetica, Arial, sans-serif">May 14 06:22</text>
+  <rect x="32" y="68" width="42" height="468" fill="#251a28" opacity=".82"/>
+  <g fill="#f0f0f0" opacity=".98">
+    <circle cx="54" cy="86" r="8"/><circle cx="54" cy="132" r="8"/><circle cx="54" cy="178" r="8"/><circle cx="54" cy="224" r="8"/><circle cx="54" cy="270" r="8"/><circle cx="54" cy="316" r="8"/><circle cx="54" cy="362" r="8"/><circle cx="54" cy="408" r="8"/><circle cx="54" cy="500" r="8"/>
+  </g>
+  <text x="801" y="524" text-anchor="middle" font-size="9" fill="#fff" font-family="Helvetica, Arial, sans-serif">Home</text>
+  <text x="447" y="90" text-anchor="middle" font-size="14" fill="#7c7178" font-family="Helvetica, Arial, sans-serif">安装类型</text>
+  <circle cx="772" cy="88" r="8" fill="#f3f0f2" stroke="#d8d1d5"/>
+  <path d="M768 84l8 8M776 84l-8 8" stroke="#8f838c" stroke-width="1.5"/>
+  
+  
+  <g transform="translate(154 190)">
+    <rect x="24" y="18" width="82" height="106" rx="14" fill="#fff" stroke="#d9d1d5"/>
+    <path d="M40 40h42M40 54h42M40 68h28" stroke="#d4c7cc" stroke-width="3" stroke-linecap="round"/>
+    <rect x="40" y="84" width="34" height="24" rx="4" fill="#fff7f4" stroke="#f0d4c9"/>
+    <path d="M46 96h22" stroke="#e95420" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="126" cy="48" r="22" fill="#e95420"/>
+    <path d="M126 36v24M114 48h24" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="108" cy="132" r="12" fill="#fff" stroke="#d9d1d5"/>
+    <path d="M108 125v14M101 132h14" stroke="#e95420" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="156" cy="124" r="16" fill="#efeff1" stroke="#d9d1d5"/>
+    <circle cx="156" cy="124" r="7" fill="none" stroke="#9c9298" stroke-width="2"/>
+  </g>
+
+  <text x="420" y="170" font-size="15" fill="#5c5358" font-family="PingFang SC, Helvetica, Arial, sans-serif">您想如何安装 Ubuntu？</text>
+  
+  <rect x="420" y="220" width="278" height="48" rx="6" fill="#fff7f4" stroke="#f0a58b"/>
+  <circle cx="442" cy="242" r="7" fill="#fff" stroke="#e95420" stroke-width="2"/><circle cx="442" cy="242" r="3" fill="#e95420"/>
+  <text x="460" y="240" font-size="14" fill="#322e31" font-family="Helvetica, Arial, sans-serif">交互安装</text>
+  <text x="460" y="256" font-size="11" fill="#8c8288" font-family="Helvetica, Arial, sans-serif">适用于希望在逐步引导下完成安装的用户。</text>
+
+  
+  <rect x="420" y="274" width="278" height="60" rx="6" fill="#fff" stroke="#e3dbe0"/>
+  <circle cx="442" cy="296" r="7" fill="#fff" stroke="#cfc6cb"/>
+  <text x="460" y="294" font-size="14" fill="#5a5057" font-family="Helvetica, Arial, sans-serif">自动安装</text>
+  <text x="460" y="310" font-size="11" fill="#8c8288" font-family="Helvetica, Arial, sans-serif">适用于使用 autoinstall.yaml 文件进行一致<tspan x="460" y="322">重复系统配置的高级用户。</tspan></text>
+
+
+  <rect x="126" y="488" width="82" height="28" rx="8" fill="#fff" stroke="#d9d1d5"/><text x="167" y="506" text-anchor="middle" font-size="12" fill="#7f737a" font-family="PingFang SC, Helvetica, Arial, sans-serif">返回</text>
+  <rect x="688" y="488" width="92" height="30" rx="8" fill="#f2f2f3"/>
+  <text x="734" y="507" text-anchor="middle" font-size="14" fill="#aca5ab" font-family="PingFang SC, Helvetica, Arial, sans-serif">下一步</text>
+  <g transform="translate(384 500)">
+    <circle cx="0" cy="0" r="4" fill="#d6cfd3"/><circle cx="14" cy="0" r="4" fill="#d6cfd3"/><circle cx="28" cy="0" r="4" fill="#d6cfd3"/><circle cx="42" cy="0" r="4" fill="#e95420"/><circle cx="56" cy="0" r="4" fill="#d6cfd3"/><circle cx="70" cy="0" r="4" fill="#d6cfd3"/><circle cx="84" cy="0" r="4" fill="#d6cfd3"/><circle cx="98" cy="0" r="4" fill="#d6cfd3"/><circle cx="112" cy="0" r="4" fill="#d6cfd3"/><circle cx="126" cy="0" r="4" fill="#d6cfd3"/>
+  </g>
+
+</svg>

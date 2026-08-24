@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ubuntu 22.04 create root partition mockup</title>
+  <desc id="desc">A simplified SVG template of the Ubuntu 22.04 create partition dialog for root partition.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c1030"/>
+      <stop offset="50%" stop-color="#5d183b"/>
+      <stop offset="100%" stop-color="#1d1029"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#120812" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="880" height="600" rx="18" fill="#0b0b0d"/>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg)"/>
+  <rect x="32" y="24" width="816" height="16" rx="12" fill="#efebe4"/>
+  <circle cx="48" cy="32" r="4" fill="#ff5f57"/>
+  <circle cx="62" cy="32" r="4" fill="#febc2e"/>
+  <circle cx="76" cy="32" r="4" fill="#28c840"/>
+  <rect x="78" y="72" width="738" height="454" rx="18" fill="#fcfbfb" filter="url(#shadow)"/>
+  
+  <defs>
+    <linearGradient id="bg2204" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c53146"/>
+      <stop offset="100%" stop-color="#4b014f"/>
+    </linearGradient>
+    <filter id="shadow2204" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#120812" flood-opacity=".30"/>
+    </filter>
+  </defs>
+  <rect x="32" y="24" width="816" height="532" rx="12" fill="url(#bg2204)"/>
+  <path d="M120 230l220-90 150 48-238 120Z" fill="#d34a64" opacity=".15"/>
+  <path d="M420 116l92-42 38 98-128 26Z" fill="#e06b7a" opacity=".12"/>
+  <path d="M590 184l94-56 42 112-112 60Z" fill="#8a1a6a" opacity=".16"/>
+  <rect x="164" y="78" width="552" height="438" rx="6" fill="#fff" filter="url(#shadow2204)"/>
+  <rect x="164" y="78" width="552" height="24" rx="6" fill="#2f2d2f"/>
+  <text x="440" y="95" text-anchor="middle" font-size="13" fill="#fff" font-family="PingFang SC, Helvetica, Arial, sans-serif">安装</text>
+  <circle cx="690" cy="90" r="7" fill="#e95420"/>
+  <path d="M686 86l8 8M694 86l-8 8" stroke="#fff" stroke-width="1.5"/>
+  
+  <text x="176" y="134" font-size="16" fill="#3e3940" font-family="PingFang SC, Helvetica, Arial, sans-serif">安装类型</text>
+  <rect x="178" y="174" width="520" height="10" fill="#f3f1f3" stroke="#d9d1d5"/>
+  <text x="188" y="191" font-size="10" fill="#8d858b" font-family="Helvetica, Arial, sans-serif">sda1 (efi)</text>
+  <text x="268" y="191" font-size="10" fill="#8d858b" font-family="PingFang SC, Helvetica, Arial, sans-serif">空闲</text>
+  <text x="310" y="191" font-size="10" fill="#8d858b" font-family="Helvetica, Arial, sans-serif">1.0 MB</text>
+  <text x="356" y="191" font-size="10" fill="#8d858b" font-family="Helvetica, Arial, sans-serif">1.0 GB</text>
+  <text x="404" y="191" font-size="10" fill="#8d858b" font-family="Helvetica, Arial, sans-serif">67.7 GB</text>
+  <rect x="178" y="196" width="520" height="150" fill="#fff" stroke="#d9d1d5"/>
+  <text x="184" y="210" font-size="10" fill="#7d737a" font-family="PingFang SC, Helvetica, Arial, sans-serif">设备</text>
+  <text x="228" y="210" font-size="10" fill="#7d737a" font-family="PingFang SC, Helvetica, Arial, sans-serif">类型</text>
+  <text x="266" y="210" font-size="10" fill="#7d737a" font-family="PingFang SC, Helvetica, Arial, sans-serif">挂载点</text>
+  <text x="306" y="210" font-size="10" fill="#7d737a" font-family="PingFang SC, Helvetica, Arial, sans-serif">格式</text>
+  <text x="184" y="230" font-size="11" fill="#4e474d" font-family="Helvetica, Arial, sans-serif">/dev/sda</text>
+  <text x="184" y="248" font-size="10" fill="#4e474d" font-family="Helvetica, Arial, sans-serif">/dev/sda1 efi</text>
+  <rect x="178" y="276" width="520" height="18" fill="#e95420"/>
+  <text x="184" y="289" font-size="10" fill="#fff" font-family="PingFang SC, Helvetica, Arial, sans-serif">空闲</text>
+  <text x="346" y="289" font-size="10" fill="#fff" font-family="Helvetica, Arial, sans-serif">66671 MB</text>
+  <rect x="180" y="352" width="18" height="18" rx="2" fill="#fff" stroke="#d9d1d5"/><text x="189" y="365" text-anchor="middle" font-size="12" fill="#6c6168" font-family="Helvetica, Arial, sans-serif">+</text>
+  <rect x="204" y="352" width="18" height="18" rx="2" fill="#fff" stroke="#d9d1d5"/><text x="213" y="365" text-anchor="middle" font-size="12" fill="#b6afb4" font-family="Helvetica, Arial, sans-serif">-</text>
+  <rect x="572" y="352" width="72" height="24" rx="3" fill="#fff" stroke="#d9d1d5"/><text x="608" y="368" text-anchor="middle" font-size="10" fill="#b6afb4" font-family="PingFang SC, Helvetica, Arial, sans-serif">新建分区表</text>
+  <rect x="648" y="352" width="38" height="24" rx="3" fill="#fff" stroke="#d9d1d5"/><text x="667" y="368" text-anchor="middle" font-size="10" fill="#b6afb4" font-family="PingFang SC, Helvetica, Arial, sans-serif">还原</text>
+  <text x="178" y="388" font-size="10" fill="#7d737a" font-family="PingFang SC, Helvetica, Arial, sans-serif">安装启动引导器的设备</text>
+  <rect x="178" y="396" width="498" height="18" rx="2" fill="#efeff1" stroke="#d9d1d5"/>
+  <text x="188" y="409" font-size="10" fill="#666067" font-family="Helvetica, Arial, sans-serif">/dev/sda ATA QEMU HARDDISK</text>
+  <rect x="178" y="196" width="520" height="218" fill="#fff" opacity=".62"/>
+  <g transform="translate(334 214)">
+    <rect width="214" height="246" rx="4" fill="#fff" stroke="#d9d1d5"/>
+    <rect width="214" height="22" rx="4" fill="#2f2d2f"/>
+    <text x="107" y="15" text-anchor="middle" font-size="12" fill="#fff" font-family="PingFang SC, Helvetica, Arial, sans-serif">创建分区</text>
+    <text x="14" y="42" font-size="10" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">大小：</text>
+    <rect x="56" y="30" width="84" height="18" fill="#fff" stroke="#d9d1d5"/>
+    <text x="98" y="43" text-anchor="middle" font-size="10" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">1024</text>
+    <text x="148" y="43" font-size="10" fill="#6b6268" font-family="Helvetica, Arial, sans-serif">MB</text>
+    <text x="14" y="68" font-size="10" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">新分区的类型：</text>
+    <circle cx="104" cy="62" r="5.2" fill="#fff" stroke="#8c4d92" stroke-width="1.4"/>
+    <circle cx="104" cy="62" r="2.4" fill="#8c4d92"/>
+    <text x="116" y="66" font-size="10" fill="#5f565d" font-family="PingFang SC, Helvetica, Arial, sans-serif">主分区</text>
+    <circle cx="104" cy="81" r="5.2" fill="#fff" stroke="#b7adb4" stroke-width="1.2"/>
+    <text x="116" y="85" font-size="10" fill="#5f565d" font-family="PingFang SC, Helvetica, Arial, sans-serif">逻辑分区</text>
+    <text x="14" y="106" font-size="10" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">新分区的位置：</text>
+    <circle cx="104" cy="100" r="5.2" fill="#fff" stroke="#8c4d92" stroke-width="1.4"/>
+    <circle cx="104" cy="100" r="2.4" fill="#8c4d92"/>
+    <text x="116" y="104" font-size="10" fill="#5f565d" font-family="PingFang SC, Helvetica, Arial, sans-serif">空间起始位置</text>
+    <circle cx="104" cy="119" r="5.2" fill="#fff" stroke="#b7adb4" stroke-width="1.2"/>
+    <text x="116" y="123" font-size="10" fill="#5f565d" font-family="PingFang SC, Helvetica, Arial, sans-serif">空间结束位置</text>
+    <text x="14" y="144" font-size="10" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">用于：</text>
+    <rect x="56" y="132" width="132" height="18" fill="#fff" stroke="#d9d1d5"/>
+    <text x="122" y="145" text-anchor="middle" font-size="10" fill="#5f565d" font-family="PingFang SC, Helvetica, Arial, sans-serif">Ext4 日志文件系统</text>
+    <text x="14" y="170" font-size="10" fill="#6b6268" font-family="PingFang SC, Helvetica, Arial, sans-serif">挂载点：</text>
+    <rect x="96" y="158" width="92" height="18" fill="#fff" stroke="#d9d1d5"/>
+    <text x="142" y="171" text-anchor="middle" font-size="10" fill="#5f565d" font-family="Helvetica, Arial, sans-serif">/boot</text>
+    <rect x="96" y="196" width="38" height="20" rx="3" fill="#fff" stroke="#d9d1d5"/>
+    <text x="115" y="210" text-anchor="middle" font-size="10" fill="#6c6168" font-family="PingFang SC, Helvetica, Arial, sans-serif">取消</text>
+    <rect x="140" y="196" width="28" height="20" rx="3" fill="#fff7f4" stroke="#eaa48c"/>
+    <text x="154" y="210" text-anchor="middle" font-size="10" fill="#6c6168" font-family="PingFang SC, Helvetica, Arial, sans-serif">OK</text>
+  </g>
+
+  <rect x="484" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d9d1d5"/>
+  <text x="516" y="476" text-anchor="middle" font-size="11" fill="#6c6168" font-family="PingFang SC, Helvetica, Arial, sans-serif">退出(Q)</text>
+  <rect x="554" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d9d1d5"/>
+  <text x="586" y="476" text-anchor="middle" font-size="11" fill="#6c6168" font-family="PingFang SC, Helvetica, Arial, sans-serif">后退(B)</text>
+  <rect x="624" y="462" width="64" height="20" rx="3" fill="#fff" stroke="#d6cfd3"/>
+  <text x="656" y="476" text-anchor="middle" font-size="11" fill="#6a6067" font-family="Helvetica, Arial, sans-serif">继续</text>
+  <g transform="translate(388 524)">
+    <circle cx="0" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="18" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="36" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="54" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="72" cy="0" r="5" fill="#8c4d92" stroke="#8c4d92" stroke-width="1.5"/><circle cx="90" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/><circle cx="108" cy="0" r="5" fill="#fff" stroke="#8c4d92" stroke-width="1.5"/>
+  </g>
+
+</svg>

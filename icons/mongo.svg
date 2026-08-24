@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .bg { fill: #f4f3f3; }
+      .leaf { fill: #4DB33D; }
+      .stem { fill: #3F8E33; }
+    </style>
+  </defs>
+  <g id="logo">
+    <rect class="bg" width="1000" height="1000"/>
+    <rect class="leaf" x="200" y="100" width="600" height="700" rx="100" ry="100"/>
+    <path class="leaf" d="M 500 150 C 750 300 800 600 650 800 L 350 800 C 200 600 250 300 500 150 Z"/>
+    <rect class="bg" x="340" y="400" width="320" height="180"/>
+    <rect class="stem" x="450" y="800" width="100" height="150" rx="20"/>
+  </g>
+</svg>
